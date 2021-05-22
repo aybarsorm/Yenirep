@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class BattleHud : MonoBehaviour
 {
+    public Unit hudsUnit; // TODO implement that
     public Text nameText;
     public Text HPText;
 
@@ -17,5 +18,10 @@ public class BattleHud : MonoBehaviour
     public void SetHP(Unit unit)
     {
         unit.GetHud().HPText.text = unit.GetCurrentHP() + "/" + unit.GetMaxHP();
+    }
+
+    public void SetHudsUnits(Unit unit)
+    {
+        hudsUnit = unit;
     }
 }
