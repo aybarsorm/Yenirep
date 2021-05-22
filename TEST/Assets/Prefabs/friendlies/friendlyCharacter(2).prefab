@@ -110,8 +110,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: friendly2
   unitLevel: 2
+  isFriendly: 1
   damage: 20
-  maxHP: 1
+  maxHP: 100
   currentHP: 120
   baseInitiative: 4
-  isFriendly: 1
+  baseDodge: 50
+  currentDodge: 0

@@ -110,8 +110,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: hostile1
   unitLevel: 2
+  isFriendly: 0
   damage: 18
   maxHP: 100
   currentHP: 0
   baseInitiative: 10
-  isFriendly: 0
+  baseDodge: 1000
+  currentDodge: 0

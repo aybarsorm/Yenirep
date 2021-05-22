@@ -7,16 +7,15 @@ public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 
 public class BattleSystem : MonoBehaviour
 {
-    public BattleState state;
-
+    // platforms
     public Transform[] friendlyPlatforms;
     public Transform[] hostilePlatforms;
-
+    //unit prefabs
     public GameObject[] friendlyPrefabs;
     public GameObject[] hostilePrefabs;
+    
 
-    public Text dialogueText;
-
+    // unit parameters
     Unit playersUnit;
     Unit attackTarget;
     Unit SelectedEnemy;
@@ -26,9 +25,13 @@ public class BattleSystem : MonoBehaviour
 
     public BattleHud[] friendlyHuds;
 
+    //sys parameters
     int turnOrderIndex = 0;
     int currentSelectedEnemyIndex = 0;
+    int randomNumber;
     bool canPlayerTakeAction = false;
+    public Text dialogueText;
+    public BattleState state;
 
     void Start()
     {
@@ -74,26 +77,6 @@ public class BattleSystem : MonoBehaviour
         NextTurn();
     }
 
-    public void NextTurn()
-    {
-        if (turnOrderIndex >= turnOrder.Length) // turu baþa sarma olayý
-            turnOrderIndex = 0;
-        isInTurn();
-
-        if (turnOrder[turnOrderIndex].IsFriendly())
-        {
-            state = BattleState.PLAYERTURN;
-            dialogueText.text = "player turn";
-            PlayerTurn();
-        }
-        else
-        {
-            state = BattleState.ENEMYTURN;
-            dialogueText.text = "enemy turn";
-            StartCoroutine(EnemyTurn());
-        }
-    }
-
     public void PlayerTurn()
     {
         dialogueText.text = "It is " + turnOrder[turnOrderIndex] + "'s turn ";
@@ -112,48 +95,99 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator PlayerAttack()
     {
+        randomNumber = Random.Range(1, 101);
         playersUnit = turnOrder[turnOrderIndex];
-        bool isAlive = SelectedEnemy.TakeDamage(playersUnit.GetDamage());
-        dialogueText.text = SelectedEnemy.GetUnitName() + " Took " + playersUnit.GetDamage() + " points of damage" + "new enemy hp = " + SelectedEnemy.GetCurrentHP();
-        yield return new WaitForSeconds(3f);
+        if(randomNumber > SelectedEnemy.GetCurrentDodge() || randomNumber >= 95)
+        {
+            bool isAlive = SelectedEnemy.TakeDamage(playersUnit.GetDamage());
+            dialogueText.text = SelectedEnemy.GetUnitName() + " Took " + playersUnit.GetDamage() + " points of damage" + "new enemy hp = " + SelectedEnemy.GetCurrentHP();
+            yield return new WaitForSeconds(3f);
 
-        if (!isAlive)
-        {
-            SelectedEnemy.gameObject.SetActive(false);
-            dialogueText.text = SelectedEnemy.GetUnitName() + " is dead!";
-            yield return new WaitForSeconds(2f);
-            SettleArrowKey("right");
+            if (!isAlive)
+            {
+                SelectedEnemy.gameObject.SetActive(false);
+                if (IsTeamDead("hostiles"))
+                {
+                    state = BattleState.WON;
+                    StartCoroutine(BattleWon());
+                }
+                else
+                {
+                    dialogueText.text = SelectedEnemy.GetUnitName() + " is dead!";
+                    yield return new WaitForSeconds(2f);
+                    SettleArrowKey("right");
+                    turnOrderIndex++;
+                    NextTurn();
+                }
+            }
+            turnOrderIndex++;
             NextTurn();
-        }else
+        }
+        else
         {
+            dialogueText.text = SelectedEnemy.GetUnitName() + " dodged your attack!";
+            yield return new WaitForSeconds(2f);
             turnOrderIndex++;
             NextTurn();
         }
     }
     IEnumerator EnemyTurn()
     {
+        randomNumber = Random.Range(1, 101);
         Unit hostileUnit = turnOrder[turnOrderIndex];
         int hostileDmg = hostileUnit.GetDamage();
         dialogueText.text = hostileUnit.GetUnitName() + " Attacks!";
         yield return new WaitForSeconds(2f);
         SelectAttackTarget();
-        bool isAlive = attackTarget.TakeDamage(hostileDmg);
-        attackTarget.GetHud().SetHP(attackTarget);
-        dialogueText.text = hostileUnit.GetUnitName() + "Deals " + hostileDmg + "points of damage to " + attackTarget.GetUnitName() + "!";
-        yield return new WaitForSeconds(2f);
+        dialogueText.text = hostileUnit.GetUnitName() + " Attacks to " + attackTarget.GetUnitName() + "!";
 
-        if (!isAlive)
+        if(randomNumber > attackTarget.GetCurrentDodge() || randomNumber >= 95)
         {
-            attackTarget.gameObject.SetActive(false);
-            dialogueText.text = attackTarget.GetUnitName() + " is unconscious!";
+            Debug.Log("random number = " + randomNumber + "dodge = " + attackTarget.GetCurrentDodge());
+            bool isAlive = attackTarget.TakeDamage(hostileDmg);
+            attackTarget.GetHud().SetHP(attackTarget);
+            dialogueText.text = hostileUnit.GetUnitName() + "Deals " + hostileDmg + "points of damage to " + attackTarget.GetUnitName() + "!";
             yield return new WaitForSeconds(2f);
+
+            if (!isAlive)
+            {
+                attackTarget.gameObject.SetActive(false);
+                if (IsTeamDead("friendlies"))
+                {
+                    state = BattleState.LOST;
+                    StartCoroutine(BattleLost());
+                }
+                else
+                {
+                    dialogueText.text = attackTarget.GetUnitName() + " is unconscious!";
+                    yield return new WaitForSeconds(2f);
+                    turnOrderIndex++;
+                    NextTurn();
+                }
+            }
+            turnOrderIndex++;
             NextTurn();
         }
         else
         {
+            dialogueText.text = attackTarget.GetUnitName() + " dodged the attack!";
+            Debug.Log("random number = " + randomNumber + "dodge = " + attackTarget.GetCurrentDodge());
+            yield return new WaitForSeconds(2f);
             turnOrderIndex++;
             NextTurn();
         }
+    }
+
+    IEnumerator BattleWon()
+    {
+        dialogueText.text = "Battle Won!";
+        yield return new WaitForSeconds(2f);
+    }
+
+    IEnumerator BattleLost()
+    {
+        dialogueText.text = "BattleLost!";
+        yield return new WaitForSeconds(2f);
     }
 
     private void SelectAttackTarget()
@@ -164,61 +198,46 @@ public class BattleSystem : MonoBehaviour
             SelectAttackTarget();
     }
 
-    public void SetTurnOrder()// OH NO N^2
+    public void NextTurn()
     {
-        for(int i = 0; i < turnOrder.Length; i++)
+        if (turnOrderIndex >= turnOrder.Length) // turu baþa sarma olayý
+            turnOrderIndex = 0;
+        isInTurn();
+
+        if (turnOrder[turnOrderIndex].GetIsFriendly())
         {
-            for(int j = 0; j < turnOrder.Length; j++)
-            {
-                if(turnOrder[i].GetInitiative() > turnOrder[j].GetInitiative())
-                {
-                    Unit temp = turnOrder[j];
-                    turnOrder[j] = turnOrder[i];
-                    turnOrder[i] = temp;
-                }
-            }
+            state = BattleState.PLAYERTURN;
+            dialogueText.text = "player turn";
+            PlayerTurn();
+        }
+        else
+        {
+            state = BattleState.ENEMYTURN;
+            dialogueText.text = "enemy turn";
+            StartCoroutine(EnemyTurn());
         }
     }
 
-    public void SetUnitArrays()
+    public bool IsTeamDead(string targetTeam)
     {
-        int friendlyCounter = 0;
-        int hostileCounter = 0;
-        for (int i = 0; i < turnOrder.Length; i++)
+        if (targetTeam == "friendlies")
         {
-
-            if (turnOrder[i].isFriendly)
+            for (int i = 0; i < friendlyUnits.Length; i++)
             {
-                friendlyUnits[friendlyCounter] = turnOrder[i];
-                friendlyCounter++;
-
+                if (friendlyUnits[i].GetIsAlive())
+                    return false;
             }
-            else
-            {
-                hostileUnits[hostileCounter] = turnOrder[i];
-                hostileCounter++;
-            }
+            return true;
         }
-    }
-
-    public Unit NextEnemy()
-    {
-        currentSelectedEnemyIndex++;
-        if (currentSelectedEnemyIndex >= hostileUnits.Length)
-            currentSelectedEnemyIndex = 0;
-        if (!hostileUnits[currentSelectedEnemyIndex].gameObject.activeSelf)
-            NextEnemy();
-        return hostileUnits[currentSelectedEnemyIndex];
-    }
-    
-    public Unit PrewEnemy()
-    {
-        currentSelectedEnemyIndex--;
-        if (currentSelectedEnemyIndex < 0)
-            currentSelectedEnemyIndex = (hostileUnits.Length);
-        if (!hostileUnits[currentSelectedEnemyIndex].gameObject.activeSelf)
-            PrewEnemy();
-        return hostileUnits[currentSelectedEnemyIndex];
+        else
+        {
+            for (int i = 0; i < hostileUnits.Length; i++)
+            {
+                if (hostileUnits[i].GetIsAlive())
+                    return false;
+            }
+            return true;
+        }
     }
 
     public void SettleArrowKey(string key)
@@ -246,12 +265,69 @@ public class BattleSystem : MonoBehaviour
                     Find("SelectedHostile").gameObject.SetActive(true);
     }
 
+    public Unit NextEnemy()
+    {
+        currentSelectedEnemyIndex++;
+        if (currentSelectedEnemyIndex >= hostileUnits.Length)
+            currentSelectedEnemyIndex = 0;
+        if (!hostileUnits[currentSelectedEnemyIndex].gameObject.activeSelf)
+            NextEnemy();
+        return hostileUnits[currentSelectedEnemyIndex];
+    }
+
+    public Unit PrewEnemy()
+    {
+        currentSelectedEnemyIndex--;
+        if (currentSelectedEnemyIndex < 0)
+            currentSelectedEnemyIndex = (hostileUnits.Length);
+        if (!hostileUnits[currentSelectedEnemyIndex].gameObject.activeSelf)
+            PrewEnemy();
+        return hostileUnits[currentSelectedEnemyIndex];
+    }
+
     public void isInTurn()
     {
         if (!turnOrder[turnOrderIndex].gameObject.activeSelf) // if unit isn't active
         {
             turnOrderIndex++;// check next dude
             isInTurn();
+        }
+    }
+
+    public void SetTurnOrder()// OH NO N^2
+    {
+        for (int i = 0; i < turnOrder.Length; i++)
+        {
+            for (int j = 0; j < turnOrder.Length; j++)
+            {
+                if (turnOrder[i].GetInitiative() > turnOrder[j].GetInitiative())
+                {
+                    Unit temp = turnOrder[j];
+                    turnOrder[j] = turnOrder[i];
+                    turnOrder[i] = temp;
+                }
+            }
+        }
+    }
+
+    public void SetUnitArrays()
+    {
+        int friendlyCounter = 0;
+        int hostileCounter = 0;
+        for (int i = 0; i < turnOrder.Length; i++)
+        {
+
+            if (turnOrder[i].isFriendly)
+            {
+                friendlyUnits[friendlyCounter] = turnOrder[i];
+                friendlyCounter++;
+
+            }
+            else
+            {
+                hostileUnits[hostileCounter] = turnOrder[i];
+                hostileCounter++;
+            }
         }
     }
 }

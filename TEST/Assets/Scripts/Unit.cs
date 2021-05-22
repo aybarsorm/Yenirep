@@ -4,19 +4,33 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
+    [Header("Basic Settings")]
     public string unitName;
     public int unitLevel;
+    public bool isFriendly;
+    private int currentInitiative;
+    [Header("Stats")]
     public int damage;
     public int maxHP;
     public int currentHP;
     public int baseInitiative;
-    public bool isFriendly;
-    private int currentInitiative;
+    public int baseDodge;
+    public int currentDodge;
+
     BattleSystem battleSystem;
     BattleHud battleHud;
 
-    bool isAlive = true;
+    private bool isAlive = true;
     //bool canAct = true;
+
+    private void Start()
+    {
+        currentInitiative = baseInitiative;
+        currentHP = maxHP;
+        currentDodge = baseDodge;
+        battleSystem = FindObjectOfType<BattleSystem>();
+
+    }
 
     public bool TakeDamage(int dmg)
     {
@@ -25,7 +39,8 @@ public class Unit : MonoBehaviour
         if (currentHP <= 0)
         {
             currentHP = 0;
-            return isAlive = false;
+            isAlive = false;
+            return isAlive;
         }
         else
             return isAlive;
@@ -43,23 +58,17 @@ public class Unit : MonoBehaviour
     public void ChangeInitiative(int amount)
     {
         currentInitiative += amount;
-        //battleSystem.SetTurnOrder();
+        battleSystem.SetTurnOrder();
     }
+    public void ChangeCurrentDodge(int amount)
+    {
+        currentDodge += amount;
+    }
+
+    // getters
     public int GetInitiative()
     {
         return baseInitiative;
-    }
-    private void Start()
-    {
-        currentInitiative = baseInitiative;
-        currentHP = maxHP;
-        battleSystem = FindObjectOfType<BattleSystem>();
-
-    }
-
-    public void SetHud(BattleHud hud)
-    {
-        battleHud = hud;
     }
     public string GetUnitName()
     {
@@ -86,8 +95,29 @@ public class Unit : MonoBehaviour
         return battleHud;
     }
 
-    public bool IsFriendly()
+    public bool GetIsFriendly()
     {
         return isFriendly;
     }
+
+    public bool GetIsAlive()
+    {
+        return isAlive;
+    }
+
+    public int GetCurrentDodge()
+    {
+        return currentDodge;
+    }
+    //setters
+    public void SetHud(BattleHud hud)
+    {
+        battleHud = hud;
+    }
+
+    public void SetCurrentHP(int hp)
+    {
+        currentHP = hp;
+    }
+
 }
