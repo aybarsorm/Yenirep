@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &2538519528014200736
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8570863155040437515}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.03, y: 0.02111803, z: 0.01}
+  m_Center: {x: 3.973345e-19, y: 0.00055901334, z: 0}
 --- !u!1001 &1393428816540925210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53,7 +66,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7a8b43b29011def47b40ea5df5b7171b, type: 3}
       propertyPath: m_Name
-      value: BasicHouse6
+      value: BasicHouse6 Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a8b43b29011def47b40ea5df5b7171b, type: 3}
+--- !u!1 &8570863155040437515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7325006392779978769, guid: 7a8b43b29011def47b40ea5df5b7171b, type: 3}
+  m_PrefabInstance: {fileID: 1393428816540925210}
+  m_PrefabAsset: {fileID: 0}
