@@ -69,5 +69,13 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+<<<<<<< HEAD
 TEST/Library/SourceAssetDB
 TEST/Library/ArtifactDB
+=======
+TEST/UserSettings/EditorUserSettings.asset
+*.log
+TEST/Library/ArtifactDB
+TEST/Library/SourceAssetDB
+>>>>>>> FiruzeCharacter
+*.meta
