@@ -70,3 +70,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 TEST/UserSettings/EditorUserSettings.asset
+*.log
+TEST/Library/ArtifactDB
+TEST/Library/SourceAssetDB

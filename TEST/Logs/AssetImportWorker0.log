@@ -272,3 +272,515 @@ System memory in use after: 80.7 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2222.
 Total: 2.473800 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.042700 ms MarkObjects: 2.121700 ms  DeleteObjects: 0.086000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 587.117728 seconds.
+  path: Assets/Animations/Firuze/Battle
+  artifactKey: Guid(ea215e0a62b2bae49979bdf19c556f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle using Guid(ea215e0a62b2bae49979bdf19c556f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd124e49702f9600dadcb48712321641') in 0.011704 seconds
+  Import took 0.015136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000808 seconds.
+  path: Assets/Animations/Firuze/Battle
+  artifactKey: Guid(ea215e0a62b2bae49979bdf19c556f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle using Guid(ea215e0a62b2bae49979bdf19c556f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd124e49702f9600dadcb48712321641') in 0.002956 seconds
+  Import took 0.005819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.730283 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Block Idle.fbx
+  artifactKey: Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Block Idle.fbx using Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b73e29e1679b86c065bc41c3143b40') in 0.028793 seconds
+  Import took 0.032032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx
+  artifactKey: Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx using Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d743305e44d10d5ff6a3e27039de63') in 0.014130 seconds
+  Import took 0.017043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx
+  artifactKey: Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx using Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c99db4744bca5c3f45267995f73014') in 0.013047 seconds
+  Import took 0.016118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx
+  artifactKey: Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx using Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406afa0ee1f632beba9889bd1b8a6008') in 0.013384 seconds
+  Import took 0.016613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx
+  artifactKey: Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx using Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5748859bb28bbcb47dcd4ba076f20cf8') in 0.012320 seconds
+  Import took 0.015595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Animations/Firuze/Battle/uploads_files_712235_lp_skeleton.obj
+  artifactKey: Guid(92848bf0f22a2cf44b80d28e97763c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/uploads_files_712235_lp_skeleton.obj using Guid(92848bf0f22a2cf44b80d28e97763c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ba50ffc05863bbbe7b43003bfa4538') in 0.252728 seconds
+  Import took 0.255510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx
+  artifactKey: Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx using Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d01d1b0eb16ffd241bceee9f437b0f') in 0.012729 seconds
+  Import took 0.016554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx
+  artifactKey: Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx using Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11ed903d2b6dbb13483bdf146e79ddb') in 0.013386 seconds
+  Import took 0.017077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx
+  artifactKey: Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx using Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a32864173f1229a37dcd9dd552fd44') in 0.013150 seconds
+  Import took 0.017228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx
+  artifactKey: Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx using Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41db940323f517aea19ce53567477aee') in 0.011295 seconds
+  Import took 0.014580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx
+  artifactKey: Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx using Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdddf6a3f6663d2df066a8e3c9a4840') in 0.012468 seconds
+  Import took 0.016448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx
+  artifactKey: Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx using Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a5651aafa1fac139d08bbd96b4ecd1') in 0.012060 seconds
+  Import took 0.015901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Taunt Chest Thump.fbx
+  artifactKey: Guid(befd3c587634dff42b77430b373765e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Taunt Chest Thump.fbx using Guid(befd3c587634dff42b77430b373765e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a51323bc3f3cc22209042d884414ab') in 0.013884 seconds
+  Import took 0.018061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Animations/Firuze/Battle/uploads_files_712235_lp_skeleton.fbx
+  artifactKey: Guid(28fd383038ad785409bea62d3877eb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/uploads_files_712235_lp_skeleton.fbx using Guid(28fd383038ad785409bea62d3877eb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a809f4737416a81cbd40c93380440c1') in 0.027665 seconds
+  Import took 0.031756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx
+  artifactKey: Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx using Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80569a8e585cf3f08af1a29265e45493') in 0.030405 seconds
+  Import took 0.034898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Idle Looking Ver. 1.fbx
+  artifactKey: Guid(74f0a3fa57997294984f3efca864f3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Idle Looking Ver. 1.fbx using Guid(74f0a3fa57997294984f3efca864f3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f45cf00712af2ac3fd322552deba7f') in 0.008079 seconds
+  Import took 0.012371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx
+  artifactKey: Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx using Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a52911d3653a4320ef7095f7249fb7d') in 0.014908 seconds
+  Import took 0.019207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx
+  artifactKey: Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx using Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b810464a99526ce2d885adf33fc7afa') in 0.012714 seconds
+  Import took 0.016548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx
+  artifactKey: Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx using Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15753acbd2703ca5ac43a29c048ac280') in 0.012161 seconds
+  Import took 0.016361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.758913 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Taunt Chest Thump.fbx
+  artifactKey: Guid(befd3c587634dff42b77430b373765e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Taunt Chest Thump.fbx using Guid(befd3c587634dff42b77430b373765e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e499ec6bbd0b6e0ccb30c409aa47ddb') in 0.006539 seconds
+  Import took 0.010082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.218727 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx
+  artifactKey: Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx using Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936b4789fefc0f1ca655024a8d3f06ff') in 0.007311 seconds
+  Import took 0.010942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx
+  artifactKey: Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx using Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936b4789fefc0f1ca655024a8d3f06ff') in 0.007891 seconds
+  Import took 0.011409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.799602 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx
+  artifactKey: Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx using Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864be56649d8b40a4da3001f5fb8765b') in 0.006703 seconds
+  Import took 0.010789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001305 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx
+  artifactKey: Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx using Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864be56649d8b40a4da3001f5fb8765b') in 0.006888 seconds
+  Import took 0.010265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.469905 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx
+  artifactKey: Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx using Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f69c8ba42eed0ad64e4d749a443581') in 0.007006 seconds
+  Import took 0.010813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001354 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx
+  artifactKey: Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx using Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f69c8ba42eed0ad64e4d749a443581') in 0.007666 seconds
+  Import took 0.010698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.933052 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx
+  artifactKey: Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx using Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352ab31bf5d9e7814b37678a8c44a9a0') in 0.006590 seconds
+  Import took 0.010069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002736 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx
+  artifactKey: Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx using Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352ab31bf5d9e7814b37678a8c44a9a0') in 0.007194 seconds
+  Import took 0.010752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.736540 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx
+  artifactKey: Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx using Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a48788b9400eb9a803f8cf32902dea2') in 0.010053 seconds
+  Import took 0.013572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001137 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx
+  artifactKey: Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx using Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a48788b9400eb9a803f8cf32902dea2') in 0.009618 seconds
+  Import took 0.013572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.887983 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx
+  artifactKey: Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx using Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae011b976b6a7b1002cf7c347e71ef83') in 0.007365 seconds
+  Import took 0.010736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.488198 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx
+  artifactKey: Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx using Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f02cec25e9b34bc7a046bc6f940102') in 0.007587 seconds
+  Import took 0.011039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001450 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx
+  artifactKey: Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx using Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f02cec25e9b34bc7a046bc6f940102') in 0.007591 seconds
+  Import took 0.012060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.578369 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx
+  artifactKey: Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx using Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0404b45ad29a971f24c8f24da4279ab0') in 0.008613 seconds
+  Import took 0.012230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002124 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx
+  artifactKey: Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx using Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0404b45ad29a971f24c8f24da4279ab0') in 0.008738 seconds
+  Import took 0.012316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.426373 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx
+  artifactKey: Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx using Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a56e91befc103c7feaa6c7f4c71a17') in 0.009584 seconds
+  Import took 0.014562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002429 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx
+  artifactKey: Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx using Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a56e91befc103c7feaa6c7f4c71a17') in 0.009913 seconds
+  Import took 0.014687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.668545 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx
+  artifactKey: Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx using Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66829530b1953f849ce231b157dbfd6c') in 0.007501 seconds
+  Import took 0.011260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001755 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx
+  artifactKey: Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx using Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66829530b1953f849ce231b157dbfd6c') in 0.007990 seconds
+  Import took 0.011055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.063938 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx
+  artifactKey: Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx using Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b822a9e2136442663b37856c0297674') in 0.007644 seconds
+  Import took 0.011428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001339 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx
+  artifactKey: Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx using Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b822a9e2136442663b37856c0297674') in 0.007504 seconds
+  Import took 0.011480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.484220 seconds.
+  path: Assets/Animations/Firuze_Hanim_Controller.controller
+  artifactKey: Guid(98eef0f9afd7a394a8e22d000edeccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze_Hanim_Controller.controller using Guid(98eef0f9afd7a394a8e22d000edeccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf21d6d7b83655449c6238fba972fee') in 0.007374 seconds
+  Import took 0.010984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000674 seconds.
+  path: Assets/Animations/Firuze_Hanim_Controller.controller
+  artifactKey: Guid(98eef0f9afd7a394a8e22d000edeccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze_Hanim_Controller.controller using Guid(98eef0f9afd7a394a8e22d000edeccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf21d6d7b83655449c6238fba972fee') in 0.005656 seconds
+  Import took 0.009007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.776673 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx
+  artifactKey: Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx using Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae741087ebc4ac24f46024c0fff134a3') in 0.009213 seconds
+  Import took 0.012693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001356 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx
+  artifactKey: Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx using Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae741087ebc4ac24f46024c0fff134a3') in 0.007351 seconds
+  Import took 0.011745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.728826 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx
+  artifactKey: Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx using Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0913cfc41145ead86acc198cb873b95') in 0.007768 seconds
+  Import took 0.011409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003025 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx
+  artifactKey: Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx using Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0913cfc41145ead86acc198cb873b95') in 0.008246 seconds
+  Import took 0.011691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.155969 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx
+  artifactKey: Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx using Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ef3725b51864cae938dcc5234ce357') in 0.012061 seconds
+  Import took 0.015422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx
+  artifactKey: Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx using Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ef3725b51864cae938dcc5234ce357') in 0.008544 seconds
+  Import took 0.011950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.035360 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx
+  artifactKey: Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx using Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ec25b5f9ff286ff4dafd2aeec2036e') in 0.007767 seconds
+  Import took 0.011461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx
+  artifactKey: Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx using Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ec25b5f9ff286ff4dafd2aeec2036e') in 0.007590 seconds
+  Import took 0.010949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.783825 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Block Idle.fbx
+  artifactKey: Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Block Idle.fbx using Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c032ac61804357645980f5d5e7635be') in 0.007415 seconds
+  Import took 0.011156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000993 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Block Idle.fbx
+  artifactKey: Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Block Idle.fbx using Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c032ac61804357645980f5d5e7635be') in 0.007735 seconds
+  Import took 0.011631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.811857 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Block React Large.fbx
+  artifactKey: Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Block React Large.fbx using Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3c071340ab6c2f9fd00265e99ad051') in 0.011245 seconds
+  Import took 0.014769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.703162 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Block React Large.fbx
+  artifactKey: Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Block React Large.fbx using Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5247b96fb0a47604cf816e091e56d86c') in 0.007326 seconds
+  Import took 0.010903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001159 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Block React Large.fbx
+  artifactKey: Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Block React Large.fbx using Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5247b96fb0a47604cf816e091e56d86c') in 0.008188 seconds
+  Import took 0.011379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 326.006290 seconds.
+  path: Assets/Scenes/CombatScene.unity
+  artifactKey: Guid(0333d864760f8004d80b56dbac1ca364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CombatScene.unity using Guid(0333d864760f8004d80b56dbac1ca364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c8ad3a38a488e7d4be7b30a4020e89') in 0.010005 seconds
+  Import took 0.013744 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001361 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.123 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1728 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.2 MB.
+System memory in use after: 84.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 2.790300 ms (FindLiveObjects: 0.232300 ms CreateObjectMapping: 0.043400 ms MarkObjects: 2.419000 ms  DeleteObjects: 0.094100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.730924 seconds.
+  path: Assets/Scenes/Ada1.unity
+  artifactKey: Guid(bbcb4354acb55034c9dd6d9b24b19b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ada1.unity using Guid(bbcb4354acb55034c9dd6d9b24b19b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bfff514b4f66505cbad5df3bffe261') in 0.014646 seconds
+  Import took 0.018544 seconds .
+
