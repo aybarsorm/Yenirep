@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -69,25 +69,3 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-<<<<<<< HEAD
-TEST/Library/SourceAssetDB
-TEST/Library/ArtifactDB
-=======
-TEST/UserSettings/EditorUserSettings.asset
-*.log
-TEST/Library/ArtifactDB
-TEST/Library/SourceAssetDB
->>>>>>> FiruzeCharacter
-*.meta
-TEST/Library/CurrentMaximizeLayout.dwlt
-TEST/Library/SceneVisibilityState.asset
-TEST/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
-TEST/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
-TEST/Library/SceneVisibilityState.asset
-TEST/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
-TEST/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
-TEST/Library/ShaderCache/EditorEncounteredVariants
-TEST/Library/SceneVisibilityState.asset
-*.meta
-TEST/Library/CurrentMaximizeLayout.dwlt
-TEST/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json

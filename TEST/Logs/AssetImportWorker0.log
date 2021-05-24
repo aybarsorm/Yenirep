@@ -480,3 +480,108 @@ System memory in use after: 84.5 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2221.
 Total: 2.320200 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.041600 ms MarkObjects: 2.000600 ms  DeleteObjects: 0.083100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 255.117638 seconds.
+  path: Assets/Food Kit
+  artifactKey: Guid(07a2c8d100537ab4aaf1c97c82255210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Kit using Guid(07a2c8d100537ab4aaf1c97c82255210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d089ed2ec09d5bb14c2d2743b63b8a5') in 0.010042 seconds
+  Import took 0.013457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.539389 seconds.
+  path: Assets/Kenney Assets
+  artifactKey: Guid(a88a3487b6caac14195d41cd4892794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets using Guid(a88a3487b6caac14195d41cd4892794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10b38a8288f081d0cf2632f1f83666d') in 0.008620 seconds
+  Import took 0.011622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.471908 seconds.
+  path: Assets/Kenney Assets/Pirate Kit
+  artifactKey: Guid(4d17dd66bc0fb7a4eace156a4778c778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Pirate Kit using Guid(4d17dd66bc0fb7a4eace156a4778c778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9481918aca6acd820261d64ea904faa9') in 0.007137 seconds
+  Import took 0.010467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.714457 seconds.
+  path: Assets/Kenney Assets/Pirate Kit/Models
+  artifactKey: Guid(394612a5875e4c4418df5ebbfca29c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Pirate Kit/Models using Guid(394612a5875e4c4418df5ebbfca29c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78341e39ab7f78d273111fae8c676945') in 0.007039 seconds
+  Import took 0.010058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.693057 seconds.
+  path: Assets/Kenney Assets/Pirate Kit/Models/FBX format
+  artifactKey: Guid(052270f76d5d2474d8e5ea769f7555b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Pirate Kit/Models/FBX format using Guid(052270f76d5d2474d8e5ea769f7555b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2505ac62205e75836dde72d117cffd') in 0.007659 seconds
+  Import took 0.010824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 305.826903 seconds.
+  path: Assets/Models/Materials
+  artifactKey: Guid(2068f78c855412841a2ab7757b3b60ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials using Guid(2068f78c855412841a2ab7757b3b60ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c937b9b473956ab4d4b3fdedf7d0d3a') in 0.007422 seconds
+  Import took 0.010815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.282349 seconds.
+  path: Assets/Animations/DwarfBarb
+  artifactKey: Guid(6c447c2bc52dbdd4fada8c2f93fb63e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DwarfBarb using Guid(6c447c2bc52dbdd4fada8c2f93fb63e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8ff9633d071744759627d7eee58236') in 0.008399 seconds
+  Import took 0.012009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.267159 seconds.
+  path: Assets/firuzeanimatorcontroller.controller
+  artifactKey: Guid(85f63a1e718fea542ae75c816ae982cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/firuzeanimatorcontroller.controller using Guid(85f63a1e718fea542ae75c816ae982cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20bacee78c938a1433e4eb1e2efb8c5') in 0.012374 seconds
+  Import took 0.015453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1448.922826 seconds.
+  path: Assets/Materials/Textures/DwarfBarbarian
+  artifactKey: Guid(6ed3c6a34eb7098499d557fe6bbef27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/DwarfBarbarian using Guid(6ed3c6a34eb7098499d557fe6bbef27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd81b04e56dda416099f37b4b21b5a8c') in 0.008833 seconds
+  Import took 0.012660 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001838 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.234 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2224.
+Total: 3.601800 ms (FindLiveObjects: 0.304100 ms CreateObjectMapping: 0.053900 ms MarkObjects: 3.063200 ms  DeleteObjects: 0.179200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
