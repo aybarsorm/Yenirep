@@ -24,6 +24,7 @@
       <Path>.vscode</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
+      <Path>UnityKorsan</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>
