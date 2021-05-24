@@ -1,435 +1,482 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'tr' Physical Memory: 16332 MB
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'tr' Physical Memory: 16319 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+D:\Unity Versions\2020.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Unity/Unity3D/Yenirep/TEST
+D:/GitHub/unity-test/Yenirep/TEST
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59480
-Successfully changed project path to: C:/Unity/Unity3D/Yenirep/TEST
-C:/Unity/Unity3D/Yenirep/TEST
+23878
+Successfully changed project path to: D:/GitHub/unity-test/Yenirep/TEST
+D:/GitHub/unity-test/Yenirep/TEST
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 49.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity/Unity3D/Yenirep/TEST/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Versions/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/unity-test/Yenirep/TEST/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
     Vendor:   
-    VRAM:     8171 MB
-    Driver:   27.20.12031.1000
+    VRAM:     5991 MB
+    Driver:   27.21.14.6647
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Mono path[0] = 'D:/Unity Versions/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Versions/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity Versions/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003104 seconds.
+Register platform support module: D:/Unity Versions/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004989 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 49.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.334 seconds
+- Completed reload, in  1.471 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001078 seconds.
+Registered in 0.001349 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001E8F68C76C0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F6701010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F35E3830 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F6701010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F35E3830 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F65F0360 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F6709A20 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3545E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F6A73BD0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F55A0640 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3608FA0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F56B3020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3610FB0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F5089010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3610FB0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F34C3E90 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F56E0A30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F55B7020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F55B7020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F340CE80 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3545E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F1DCC940 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3545E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F575B020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F5785C30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F55A0640 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3545E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.111 seconds
+- Completed reload, in  1.581 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1773 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.3 MB.
+
+Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 2210.
+Total: 3.046700 ms (FindLiveObjects: 0.361100 ms CreateObjectMapping: 0.065000 ms MarkObjects: 2.369100 ms  DeleteObjects: 0.249900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Ada1.unity
+  artifactKey: Guid(bbcb4354acb55034c9dd6d9b24b19b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ada1.unity using Guid(bbcb4354acb55034c9dd6d9b24b19b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9148556ca07a6f51deb6f7f967c732ec') in 0.013512 seconds
+  Import took 0.017253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1246.842093 seconds.
+  path: Assets/firuzeanimatorcontroller.controller
+  artifactKey: Guid(85f63a1e718fea542ae75c816ae982cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/firuzeanimatorcontroller.controller using Guid(85f63a1e718fea542ae75c816ae982cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f738d9d789fe153be3c4ec193e812b') in 0.030475 seconds
+  Import took 0.033824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.863703 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(66c0756703c77964a9cc347ad3e71ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(66c0756703c77964a9cc347ad3e71ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8b89a100c3ee3cf285ee867a193a97') in 0.006847 seconds
+  Import took 0.009914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.163234 seconds.
+  path: Assets/Animations/Firuze
+  artifactKey: Guid(536761bacd6dc9c4b80dcd1325071cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze using Guid(536761bacd6dc9c4b80dcd1325071cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ed6459ca9c1db2b9f42897420fc08d') in 0.007282 seconds
+  Import took 0.010167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.188657 seconds.
+  path: Assets/Animations/Firuze/Firuze_Hanim_Controller.controller
+  artifactKey: Guid(98eef0f9afd7a394a8e22d000edeccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Firuze_Hanim_Controller.controller using Guid(98eef0f9afd7a394a8e22d000edeccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fe4b1134a7b30aea78c24d681087b5') in 0.011575 seconds
+  Import took 0.014625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.120580 seconds.
+  path: Assets/Animations/Firuze/Battle
+  artifactKey: Guid(ea215e0a62b2bae49979bdf19c556f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle using Guid(ea215e0a62b2bae49979bdf19c556f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5fac0055cf2048c094bfec72c6733d') in 0.007239 seconds
+  Import took 0.010140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043141 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Block Idle.fbx
+  artifactKey: Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Block Idle.fbx using Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fc920bb72d58ef5436cc902bf79e97') in 0.100662 seconds
+  Import took 0.103776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx
+  artifactKey: Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx using Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4d0300da886087158a0dbbecc62262') in 0.082046 seconds
+  Import took 0.084929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx
+  artifactKey: Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx using Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a9efb25751f324bb3cc5d438549c7f') in 0.048101 seconds
+  Import took 0.050947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx
+  artifactKey: Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx using Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2511b968a780aac78c8cc7ec321b9e57') in 0.068638 seconds
+  Import took 0.071647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx
+  artifactKey: Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx using Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd909daa1aa4daabdc58c319f6ef7c772') in 0.070184 seconds
+  Import took 0.072992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx
+  artifactKey: Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx using Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0836697b8c019f330b50af50e1189522') in 0.061748 seconds
+  Import took 0.064561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx
+  artifactKey: Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx using Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c90cb80cd2f40d41590ef5b34771fd6') in 0.063292 seconds
+  Import took 0.066160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx
+  artifactKey: Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx using Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61acc7667973eed97e0457b4ce3ace32') in 0.029485 seconds
+  Import took 0.032499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx
+  artifactKey: Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx using Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5023369d17ee29c6f1ac281d4e677d49') in 0.052524 seconds
+  Import took 0.055775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx
+  artifactKey: Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx using Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5353d32967a1679a6af5994c6a5f3a93') in 0.058572 seconds
+  Import took 0.061999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx
+  artifactKey: Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx using Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd463bac00f21db71d78d2bc1209064') in 0.032839 seconds
+  Import took 0.035766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Taunt Chest Thump.fbx
+  artifactKey: Guid(befd3c587634dff42b77430b373765e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Taunt Chest Thump.fbx using Guid(befd3c587634dff42b77430b373765e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd58b082df193d7b47fd89b2e3ba68bc') in 0.028587 seconds
+  Import took 0.031689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Block React Large.fbx
+  artifactKey: Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Block React Large.fbx using Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88dd921e8a60ae73fa9a9c83478b88e') in 0.044458 seconds
+  Import took 0.047647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx
+  artifactKey: Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx using Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcc3b46ada9916cfa2911c12fc05e13') in 0.061463 seconds
+  Import took 0.064412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx
+  artifactKey: Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx using Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ca2aba33128bdda877c20e076ed012') in 0.042022 seconds
+  Import took 0.045103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx
+  artifactKey: Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx using Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6953f00591831298f8ac48f52e3dfad2') in 0.060700 seconds
+  Import took 0.063924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx
+  artifactKey: Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx using Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd559644ce5a5baf65679ac6c9941fb0') in 0.079797 seconds
+  Import took 0.082667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 358.719533 seconds.
+  path: Assets/Animations/GiantBarb,
+  artifactKey: Guid(764fc656ceb330b47bd123126a6e6846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GiantBarb, using Guid(764fc656ceb330b47bd123126a6e6846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513481da1adb456d695f488853e799ba') in 0.010866 seconds
+  Import took 0.014496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.287615 seconds.
+  path: Assets/Animations/GiantBarb,/DraftFree.controller
+  artifactKey: Guid(6f7e0c8ca59a144c2b07fd3e57254a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GiantBarb,/DraftFree.controller using Guid(6f7e0c8ca59a144c2b07fd3e57254a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd796649c06a98c94483fad17af1a35e4') in 0.340995 seconds
+  Import took 0.349663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.795160 seconds.
+  path: Assets/Materials/Textures/GiantBarbarian/Dwarf Master Texture.png
+  artifactKey: Guid(524df8f70f5fc3c4c959619c8bdc250b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/GiantBarbarian/Dwarf Master Texture.png using Guid(524df8f70f5fc3c4c959619c8bdc250b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724411f2499f8952eba3d390b4ebafbe') in 0.053765 seconds
+  Import took 0.058258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Materials/Textures/GiantBarbarian/Hamer Dwarf Master Texture.png
+  artifactKey: Guid(30a9e05ee13a4f549b91200fbefe23d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/GiantBarbarian/Hamer Dwarf Master Texture.png using Guid(30a9e05ee13a4f549b91200fbefe23d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797409828894dbb248eadbcc16420f4b') in 0.015751 seconds
+  Import took 0.020254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Materials/Textures/Firuze/Peasant_Girl_normal.png
+  artifactKey: Guid(e033192eb13193e43a2066c95078229d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Firuze/Peasant_Girl_normal.png using Guid(e033192eb13193e43a2066c95078229d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69ec0cb3a94213e9ca088ee65feeb86') in 0.059387 seconds
+  Import took 0.062860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Materials/Textures/GiantBarbarian/Dwarf Master Texture.png
+  artifactKey: Guid(524df8f70f5fc3c4c959619c8bdc250b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/GiantBarbarian/Dwarf Master Texture.png using Guid(524df8f70f5fc3c4c959619c8bdc250b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724411f2499f8952eba3d390b4ebafbe') in 0.012136 seconds
+  Import took 0.015698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Materials/Textures/Firuze/Peasant_Girl_diffuse.png
+  artifactKey: Guid(f9a93696cb13f754a82a44135daf2dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Firuze/Peasant_Girl_diffuse.png using Guid(f9a93696cb13f754a82a44135daf2dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348e38d5606c6168cbcdc29cd0695546') in 0.013693 seconds
+  Import took 0.016866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Materials/Textures/Luger/UV_P08Luger_Barrel_Standard_metallic.jpg
+  artifactKey: Guid(3e1c4437a03662a4b8cc41e3e22c1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Luger/UV_P08Luger_Barrel_Standard_metallic.jpg using Guid(3e1c4437a03662a4b8cc41e3e22c1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4363a53b9d8d15bf3e54fd2afb00bb') in 0.088509 seconds
+  Import took 0.091941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Materials/Textures/Luger/UV_P08Luger_Barrel_Standard_albedo.jpg
+  artifactKey: Guid(14847fe821b73d54ea6fd6cf0fd3641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Luger/UV_P08Luger_Barrel_Standard_albedo.jpg using Guid(14847fe821b73d54ea6fd6cf0fd3641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3a849666958c1768053409ffcf0126') in 0.112441 seconds
+  Import took 0.116020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Materials/Textures/Luger/UV_P08Luger_Barrel_Standard_normal.png
+  artifactKey: Guid(864e861d82b16314c821ed5da5f197b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Luger/UV_P08Luger_Barrel_Standard_normal.png using Guid(864e861d82b16314c821ed5da5f197b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6b8369c25597f63f016f94d13ecd46') in 0.152298 seconds
+  Import took 0.155698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Kenney Assets/Pirate Kit/Preview.png
+  artifactKey: Guid(cae86490495c00b4ab471bd1134e10a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Pirate Kit/Preview.png using Guid(cae86490495c00b4ab471bd1134e10a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78a4b96086cf52ca84a35bddc96fd2f') in 0.040923 seconds
+  Import took 0.043683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Materials/Textures/Luger/UV_P08Luger_Barrel_Standard_roughness.jpg
+  artifactKey: Guid(1e95b0ac3f7dc2643bcd7d09188ede3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Luger/UV_P08Luger_Barrel_Standard_roughness.jpg using Guid(1e95b0ac3f7dc2643bcd7d09188ede3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8a617bade07fe833bdb2edd5f11226') in 0.082769 seconds
+  Import took 0.085746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Materials/Textures/Firuze/Peasant_Girl_specular.png
+  artifactKey: Guid(c536c15430b6ac844a415ad52c87aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Firuze/Peasant_Girl_specular.png using Guid(c536c15430b6ac844a415ad52c87aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d8f3158273de6d915eb17ef96919c2') in 0.013975 seconds
+  Import took 0.017207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Materials/Textures/GiantBarbarian/Hamer Dwarf Master Normal Map.png
+  artifactKey: Guid(8b8fb72748421d84f8f2d2f345de5ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/GiantBarbarian/Hamer Dwarf Master Normal Map.png using Guid(8b8fb72748421d84f8f2d2f345de5ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91c4113a340dda17bd41c7107dc6842') in 0.014127 seconds
+  Import took 0.017248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020599 seconds.
+  path: Assets/Materials/Textures/Firuze/Peasant_Girl_specular.png
+  artifactKey: Guid(c536c15430b6ac844a415ad52c87aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Firuze/Peasant_Girl_specular.png using Guid(c536c15430b6ac844a415ad52c87aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d8f3158273de6d915eb17ef96919c2') in 0.011699 seconds
+  Import took 0.015586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.895101 seconds.
+  path: Assets/Materials/Textures/GiantBarbarian/Dwarf Berserker Nomal Map.png
+  artifactKey: Guid(eecb7775ba50d5946a3c10f638a78c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/GiantBarbarian/Dwarf Berserker Nomal Map.png using Guid(eecb7775ba50d5946a3c10f638a78c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd317506aa36c0cce4e76056540add094') in 0.013437 seconds
+  Import took 0.016987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Materials/Textures/GiantBarbarian/Dwarf Master Nomal Map.png
+  artifactKey: Guid(0fd5c2b4bd2efee468dc3abf38a09d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/GiantBarbarian/Dwarf Master Nomal Map.png using Guid(0fd5c2b4bd2efee468dc3abf38a09d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4ff19cc625bc21a774ecca1459f7c9') in 0.018065 seconds
+  Import took 0.021735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Materials/Textures/GiantBarbarian/Dwarf Berserker Nomal Map.png
+  artifactKey: Guid(eecb7775ba50d5946a3c10f638a78c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/GiantBarbarian/Dwarf Berserker Nomal Map.png using Guid(eecb7775ba50d5946a3c10f638a78c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd317506aa36c0cce4e76056540add094') in 0.018449 seconds
+  Import took 0.038802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Materials/Textures/GiantBarbarian/Dwarf Berserker Texture.png
+  artifactKey: Guid(7cff889737981584bb8dcbdcfec5aa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/GiantBarbarian/Dwarf Berserker Texture.png using Guid(7cff889737981584bb8dcbdcfec5aa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89defad850d741af63150f15b17ded43') in 0.015302 seconds
+  Import took 0.019554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024841 seconds.
+  path: Assets/Materials/Textures/GiantBarbarian/Dwarf Berserker Texture.png
+  artifactKey: Guid(7cff889737981584bb8dcbdcfec5aa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/GiantBarbarian/Dwarf Berserker Texture.png using Guid(7cff889737981584bb8dcbdcfec5aa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89defad850d741af63150f15b17ded43') in 0.014269 seconds
+  Import took 0.018542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079582 seconds.
+  path: Assets/Sprites/Bar.png
+  artifactKey: Guid(84c76fa869798be4fba2955d1b75e997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bar.png using Guid(84c76fa869798be4fba2955d1b75e997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eda71785aade44d0d628e985e8fbdc') in 0.059319 seconds
+  Import took 0.062625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107235 seconds.
+  path: Assets/Materials/Textures/GiantBarbarian/Axe Dwarf Berserker Normal Map.png
+  artifactKey: Guid(e504e512a3f54154e9263418a84082eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/GiantBarbarian/Axe Dwarf Berserker Normal Map.png using Guid(e504e512a3f54154e9263418a84082eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e5700d3e82d06cc82841868130cf19') in 0.012873 seconds
+  Import took 0.016287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Materials/Textures/GiantBarbarian/Axe Dwarf Berserker Texture.png
+  artifactKey: Guid(ae44d03ac9ccafa4993c64a5ebd35872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/GiantBarbarian/Axe Dwarf Berserker Texture.png using Guid(ae44d03ac9ccafa4993c64a5ebd35872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed685dab7f0c5e9f479dee0a7e7f88b4') in 0.014046 seconds
+  Import took 0.017242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.548683 seconds.
+  path: Assets/Materials/Textures/Firuze
+  artifactKey: Guid(333413666c7d4504586432fbe7d39860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Firuze using Guid(333413666c7d4504586432fbe7d39860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bdbb26d573ec8df739277681bd0e7e') in 0.003249 seconds
+  Import took 0.006435 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001666 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1771 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.1 MB.
-System memory in use after: 84.1 MB.
+Unloading 1731 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.5 MB.
 
-Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 2209.
-Total: 3.319400 ms (FindLiveObjects: 0.245600 ms CreateObjectMapping: 0.055800 ms MarkObjects: 2.765200 ms  DeleteObjects: 0.251000 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2221.
+Total: 2.320200 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.041600 ms MarkObjects: 2.000600 ms  DeleteObjects: 0.083100 ms)
 
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/BattleSystem.cs
-  artifactKey: Guid(7bfc990152e598c439c369969ea700d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BattleSystem.cs using Guid(7bfc990152e598c439c369969ea700d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ae89c18e04b6a443597ae3124e3f9f') in 0.026098 seconds
-  Import took 0.029247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.458614 seconds.
-  path: Assets/Scripts/Unit.cs
-  artifactKey: Guid(6290b2b7fd5a61d43b85cb306ba4c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Unit.cs using Guid(6290b2b7fd5a61d43b85cb306ba4c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7314f165481d7c356747eaf909f0d9eb') in 0.013739 seconds
-  Import took 0.018376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001605 seconds.
-  path: Assets/Scripts/Unit.cs
-  artifactKey: Guid(6290b2b7fd5a61d43b85cb306ba4c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Unit.cs using Guid(6290b2b7fd5a61d43b85cb306ba4c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7314f165481d7c356747eaf909f0d9eb') in 0.008422 seconds
-  Import took 0.013305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.676377 seconds.
-  path: Assets/Scripts/BattleHud.cs
-  artifactKey: Guid(2b6b7a731b0684a4db916b0267dac8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BattleHud.cs using Guid(2b6b7a731b0684a4db916b0267dac8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abeb605a59d1a24fef6464b13733b065') in 0.008171 seconds
-  Import took 0.011215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Scripts/BattleHud.cs
-  artifactKey: Guid(2b6b7a731b0684a4db916b0267dac8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BattleHud.cs using Guid(2b6b7a731b0684a4db916b0267dac8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abeb605a59d1a24fef6464b13733b065') in 0.003067 seconds
-  Import took 0.006049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.986237 seconds.
-  path: Assets/Scripts/HealthBar.cs
-  artifactKey: Guid(e15eafff1050d1f4ab799a948dabc659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/HealthBar.cs using Guid(e15eafff1050d1f4ab799a948dabc659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2e4e16cc04c92f85ffc1bc4385a28e') in 0.015692 seconds
-  Import took 0.020158 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001834 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001E8F68C76C0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F6A62010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F4F9E0A0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F6A62010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F5B67C10 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E7081AE9E0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F6A62010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F33E4B70 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F8119570 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3936040 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F373D010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F56B3020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F373D010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F5089010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F373D010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3453050 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F373D010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F7EF4010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F6519020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F33E4B70 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F6D76E20 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F1DCCFD0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F6A75420 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F6519020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F7F03420 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3555120 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F363E110 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.933 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1729 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.0 MB.
-System memory in use after: 81.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2213.
-Total: 2.354600 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.040500 ms MarkObjects: 2.032100 ms  DeleteObjects: 0.078500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001818 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001E8F33064A0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F503A010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E918AC2110 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F4DC5EC0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F56C1EE0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F82092D0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F4DC5EC0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F5D00020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F75B9B90 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3936040 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F37CB010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F61B2010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F37CB010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E918BAA010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F37CB010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F32C1030 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F503A010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F6C00010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F5089010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F37CB010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3553D20 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F1DCC940 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3553D20 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F77F6E20 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F505F010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F7881E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3553D20 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1728 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.0 MB.
-System memory in use after: 81.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2216.
-Total: 2.366400 ms (FindLiveObjects: 0.230400 ms CreateObjectMapping: 0.044100 ms MarkObjects: 2.014800 ms  DeleteObjects: 0.075600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001250 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001E8F68C76C0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F32E2400 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3556720 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F3686020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E918D3AA40 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F82092D0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F67631E0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F368EA30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F5469FF0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F59B3040 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F33D4B60 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F61B2010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E918CC2E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F384D010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E918CC2E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F32C1030 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E918CC2E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F77E59A0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F5089010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F368EA30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F37D3020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F1DCC940 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F37D3020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E918CF6030 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F505F010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F58F0A40 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E8F37D3020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1728 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.1 MB.
-System memory in use after: 81.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2219.
-Total: 2.568600 ms (FindLiveObjects: 0.284700 ms CreateObjectMapping: 0.043400 ms MarkObjects: 2.154900 ms  DeleteObjects: 0.083800 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
