@@ -1,786 +1,819 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'tr' Physical Memory: 16319 MB
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'tr' Physical Memory: 16057 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity Versions\2020.3.0f1\Editor\Unity.exe
+D:\Unity\2020.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/GitHub/unity-test/Yenirep/TEST
+D:/Unity Projects/test/Yenirep/TEST
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1308
-Successfully changed project path to: D:/GitHub/unity-test/Yenirep/TEST
-D:/GitHub/unity-test/Yenirep/TEST
+50077
+Successfully changed project path to: D:/Unity Projects/test/Yenirep/TEST
+D:/Unity Projects/test/Yenirep/TEST
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 217.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
-[Subsystems] Discovering subsystems at path D:/Unity Versions/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitHub/unity-test/Yenirep/TEST/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/test/Yenirep/TEST/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   27.21.14.6647
+    VRAM:     2988 MB
+    Driver:   27.21.14.5671
 Initialize mono
-Mono path[0] = 'D:/Unity Versions/2020.3.0f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity Versions/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity Versions/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Mono path[0] = 'D:/Unity/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity Versions/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005165 seconds.
+Register platform support module: D:/Unity/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001747 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 66.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.496 seconds
+- Completed reload, in  2.100 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001487 seconds.
+Registered in 0.001277 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.224 seconds
+- Completed reload, in  1.525 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1772 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.6 MB.
-System memory in use after: 83.6 MB.
+Unloading 1773 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.7 MB.
+System memory in use after: 83.7 MB.
 
-Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 2209.
-Total: 3.129700 ms (FindLiveObjects: 0.318800 ms CreateObjectMapping: 0.049800 ms MarkObjects: 2.536000 ms  DeleteObjects: 0.223300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Animations/Firuze/Standing Run Forward.fbx
-  artifactKey: Guid(81e30b24e54bb9f4a95600c696d32168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Standing Run Forward.fbx using Guid(81e30b24e54bb9f4a95600c696d32168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c800b0a2083ebef9cf8c89031a11c0bc') in 0.120751 seconds
-  Import took 0.124248 seconds .
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 2212.
+Total: 3.694300 ms (FindLiveObjects: 0.282000 ms CreateObjectMapping: 0.103100 ms MarkObjects: 3.053500 ms  DeleteObjects: 0.253900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.090959 seconds.
-  path: Assets/Animations/Firuze/Standing Run Forward.fbx
-  artifactKey: Guid(81e30b24e54bb9f4a95600c696d32168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Standing Run Forward.fbx using Guid(81e30b24e54bb9f4a95600c696d32168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf2f709baa9c62398ac4d1ccc119874') in 0.008662 seconds
-  Import took 0.013323 seconds .
+  path: Assets/sword_SE.png
+  artifactKey: Guid(4bcc8c5d951b4f544bac951205baaaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sword_SE.png using Guid(4bcc8c5d951b4f544bac951205baaaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd19efea84ab6221bf9508a854b2d95') in 0.208782 seconds
+  Import took 0.212855 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.546085 seconds.
-  path: Assets/Animations/Firuze/Standing Run Forward.fbx
-  artifactKey: Guid(81e30b24e54bb9f4a95600c696d32168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Standing Run Forward.fbx using Guid(81e30b24e54bb9f4a95600c696d32168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3791073304837d44bf10dd001272ee6c') in 0.008009 seconds
-  Import took 0.012064 seconds .
+  Time since last request: 0.000648 seconds.
+  path: Assets/Başlıksız.png
+  artifactKey: Guid(51d0f8150d44d8742bfc0c6e13185c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Başlıksız.png using Guid(51d0f8150d44d8742bfc0c6e13185c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f285e9f7d3bfc54862c40e52bbbb6126') in 0.033873 seconds
+  Import took 0.037189 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002675 seconds.
-  path: Assets/Animations/Firuze/Standing Run Forward.fbx
-  artifactKey: Guid(81e30b24e54bb9f4a95600c696d32168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Standing Run Forward.fbx using Guid(81e30b24e54bb9f4a95600c696d32168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3791073304837d44bf10dd001272ee6c') in 0.007498 seconds
-  Import took 0.011047 seconds .
+  Time since last request: 0.001024 seconds.
+  path: Assets/Başlıksız.png
+  artifactKey: Guid(51d0f8150d44d8742bfc0c6e13185c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Başlıksız.png using Guid(51d0f8150d44d8742bfc0c6e13185c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f285e9f7d3bfc54862c40e52bbbb6126') in 0.017758 seconds
+  Import took 0.021995 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.554252 seconds.
-  path: Assets/Animations/Firuze_Hanim_Controller.controller
-  artifactKey: Guid(98eef0f9afd7a394a8e22d000edeccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze_Hanim_Controller.controller using Guid(98eef0f9afd7a394a8e22d000edeccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481d8a1642de421f21aa9ef1116d803b') in 0.013676 seconds
-  Import took 0.017211 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001609 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.084 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1729 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2213.
-Total: 3.165500 ms (FindLiveObjects: 0.318200 ms CreateObjectMapping: 0.057200 ms MarkObjects: 2.700400 ms  DeleteObjects: 0.087300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001517 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.149 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1728 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2216.
-Total: 3.035600 ms (FindLiveObjects: 0.323300 ms CreateObjectMapping: 0.077700 ms MarkObjects: 2.543400 ms  DeleteObjects: 0.089400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001739 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1728 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2219.
-Total: 2.295500 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.966900 ms  DeleteObjects: 0.068600 ms)
+  Time since last request: 6.132858 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0501b9f27ad77c54d94ad42de7e68a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0501b9f27ad77c54d94ad42de7e68a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d03021a980a6c0068f9a882b61ca15') in 0.010536 seconds
+  Import took 0.014264 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 374.776036 seconds.
-  path: Assets/Animations/Firuze/Standing Idle Looking Ver. 1.fbx
-  artifactKey: Guid(f5d643f760a493f4aa8d45b309669d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Standing Idle Looking Ver. 1.fbx using Guid(f5d643f760a493f4aa8d45b309669d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379698d0a0fd5b2711c15fb1f6dc0f05') in 0.034392 seconds
-  Import took 0.037792 seconds .
+  Time since last request: 0.048744 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0501b9f27ad77c54d94ad42de7e68a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0501b9f27ad77c54d94ad42de7e68a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d03021a980a6c0068f9a882b61ca15') in 0.003192 seconds
+  Import took 0.007052 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.548051 seconds.
-  path: Assets/Animations/Firuze/Standing Idle Looking Ver. 1.fbx
-  artifactKey: Guid(f5d643f760a493f4aa8d45b309669d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Standing Idle Looking Ver. 1.fbx using Guid(f5d643f760a493f4aa8d45b309669d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b04becd072688002273bbba0eb1a247') in 0.007504 seconds
-  Import took 0.010699 seconds .
+  Time since last request: 35.265670 seconds.
+  path: Assets/Scenes/Ada2.unity
+  artifactKey: Guid(9ed4028fa3106834f83b0550de29bc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ada2.unity using Guid(9ed4028fa3106834f83b0550de29bc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2326a0f8a31011ef5cdb120b1093f7') in 0.011426 seconds
+  Import took 0.015812 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.931654 seconds.
-  path: Assets/Animations/Firuze/Standing Idle Looking Ver. 1.fbx
-  artifactKey: Guid(f5d643f760a493f4aa8d45b309669d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Standing Idle Looking Ver. 1.fbx using Guid(f5d643f760a493f4aa8d45b309669d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd954e1748819e0ea68b8a4bfb54e9b29') in 0.007432 seconds
-  Import took 0.011256 seconds .
+  Time since last request: 0.005823 seconds.
+  path: Assets/Scenes/Ada2.unity
+  artifactKey: Guid(9ed4028fa3106834f83b0550de29bc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ada2.unity using Guid(9ed4028fa3106834f83b0550de29bc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2326a0f8a31011ef5cdb120b1093f7') in 0.005441 seconds
+  Import took 0.009201 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.007446 seconds.
-  path: Assets/Animations/Firuze/Standing Idle Looking Ver. 1.fbx
-  artifactKey: Guid(f5d643f760a493f4aa8d45b309669d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Standing Idle Looking Ver. 1.fbx using Guid(f5d643f760a493f4aa8d45b309669d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd954e1748819e0ea68b8a4bfb54e9b29') in 0.007249 seconds
-  Import took 0.011373 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001619 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.094 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1728 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 80.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2222.
-Total: 2.473800 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.042700 ms MarkObjects: 2.121700 ms  DeleteObjects: 0.086000 ms)
+  Time since last request: 356.970576 seconds.
+  path: Assets/Materials/Firuze.mat
+  artifactKey: Guid(150c53d1ef736b34c8acc668853648b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Firuze.mat using Guid(150c53d1ef736b34c8acc668853648b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad913a96ff773d9eb07a90189cd47492') in 0.257612 seconds
+  Import took 0.261972 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 587.117728 seconds.
-  path: Assets/Animations/Firuze/Battle
-  artifactKey: Guid(ea215e0a62b2bae49979bdf19c556f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle using Guid(ea215e0a62b2bae49979bdf19c556f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd124e49702f9600dadcb48712321641') in 0.011704 seconds
-  Import took 0.015136 seconds .
+  Time since last request: 0.000658 seconds.
+  path: Assets/Materials/Gras_Light.mat
+  artifactKey: Guid(22ea158a65cb83646b79e086e9d38214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Gras_Light.mat using Guid(22ea158a65cb83646b79e086e9d38214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878725dde58415fd020f49939a3ef164') in 0.061576 seconds
+  Import took 0.065117 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000808 seconds.
-  path: Assets/Animations/Firuze/Battle
-  artifactKey: Guid(ea215e0a62b2bae49979bdf19c556f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle using Guid(ea215e0a62b2bae49979bdf19c556f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd124e49702f9600dadcb48712321641') in 0.002956 seconds
-  Import took 0.005819 seconds .
+  Time since last request: 0.000260 seconds.
+  path: Assets/Materials/water.mat
+  artifactKey: Guid(967ccf79db499d743b91860039215d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/water.mat using Guid(967ccf79db499d743b91860039215d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322edcc4fd56e15eded6c5f427ac164f') in 0.025726 seconds
+  Import took 0.029570 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.730283 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Block Idle.fbx
-  artifactKey: Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Block Idle.fbx using Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b73e29e1679b86c065bc41c3143b40') in 0.028793 seconds
-  Import took 0.032032 seconds .
+  Time since last request: 0.000816 seconds.
+  path: Assets/Materials/Luger_Barrel.mat
+  artifactKey: Guid(bde2417ddfd069a4688b5615d39c3c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Luger_Barrel.mat using Guid(bde2417ddfd069a4688b5615d39c3c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49bb2f8aff91bbbb15a94c79bfe26bc') in 0.340323 seconds
+  Import took 0.344420 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx
-  artifactKey: Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx using Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d743305e44d10d5ff6a3e27039de63') in 0.014130 seconds
-  Import took 0.017043 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/Materials/sword_SE.mat
+  artifactKey: Guid(7495a99b5af5c154cbf0b83c4af9bd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/sword_SE.mat using Guid(7495a99b5af5c154cbf0b83c4af9bd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c3f735edd7dd7ea5bcc96817ed5d01') in 0.021259 seconds
+  Import took 0.025689 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx
-  artifactKey: Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx using Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c99db4744bca5c3f45267995f73014') in 0.013047 seconds
-  Import took 0.016118 seconds .
+  Time since last request: 0.000294 seconds.
+  path: Assets/Materials/Leaf_Light.mat
+  artifactKey: Guid(ef33920abe3d86b4a971f71513940b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leaf_Light.mat using Guid(ef33920abe3d86b4a971f71513940b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735b331452157f903815d01fbd8ab923') in 0.023397 seconds
+  Import took 0.028273 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx
-  artifactKey: Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx using Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406afa0ee1f632beba9889bd1b8a6008') in 0.013384 seconds
-  Import took 0.016613 seconds .
+  Time since last request: 0.000287 seconds.
+  path: Assets/Materials/Gras.mat
+  artifactKey: Guid(33a177f5152a6ef4cb5a1482201e548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Gras.mat using Guid(33a177f5152a6ef4cb5a1482201e548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9587634c4c5c7293ca6b8ac6a2857b9') in 0.023221 seconds
+  Import took 0.028579 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx
-  artifactKey: Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx using Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5748859bb28bbcb47dcd4ba076f20cf8') in 0.012320 seconds
-  Import took 0.015595 seconds .
+  Time since last request: 0.000498 seconds.
+  path: Assets/Materials/Leaf_Dark.mat
+  artifactKey: Guid(47a8398bab670654abc90958389acf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leaf_Dark.mat using Guid(47a8398bab670654abc90958389acf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7d8b19237b1abfbdb9886f01fb6c50') in 0.041678 seconds
+  Import took 0.046070 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Animations/Firuze/Battle/uploads_files_712235_lp_skeleton.obj
-  artifactKey: Guid(92848bf0f22a2cf44b80d28e97763c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/uploads_files_712235_lp_skeleton.obj using Guid(92848bf0f22a2cf44b80d28e97763c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ba50ffc05863bbbe7b43003bfa4538') in 0.252728 seconds
-  Import took 0.255510 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/Materials/Luger_Body.mat
+  artifactKey: Guid(d73df08d25759e84f93a3fd49dc8d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Luger_Body.mat using Guid(d73df08d25759e84f93a3fd49dc8d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278db86d79e0f0d7cb9b040df67d08dc') in 0.018547 seconds
+  Import took 0.022635 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx
-  artifactKey: Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx using Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d01d1b0eb16ffd241bceee9f437b0f') in 0.012729 seconds
-  Import took 0.016554 seconds .
+  Time since last request: 0.000207 seconds.
+  path: Assets/Materials/sand.mat
+  artifactKey: Guid(3ac33114ba9e8f44082e225b5560b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/sand.mat using Guid(3ac33114ba9e8f44082e225b5560b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9496241558da2d24bb66cc6518fb07fb') in 0.019086 seconds
+  Import took 0.023372 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx
-  artifactKey: Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx using Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11ed903d2b6dbb13483bdf146e79ddb') in 0.013386 seconds
-  Import took 0.017077 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/Materials/Luger_Body.mat
+  artifactKey: Guid(d73df08d25759e84f93a3fd49dc8d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Luger_Body.mat using Guid(d73df08d25759e84f93a3fd49dc8d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278db86d79e0f0d7cb9b040df67d08dc') in 0.019177 seconds
+  Import took 0.024069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Materials/sand.mat
+  artifactKey: Guid(3ac33114ba9e8f44082e225b5560b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/sand.mat using Guid(3ac33114ba9e8f44082e225b5560b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9496241558da2d24bb66cc6518fb07fb') in 0.016215 seconds
+  Import took 0.020393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2006.339119 seconds.
+  path: Assets/Prefabs/lantern Variant.prefab
+  artifactKey: Guid(0f3bda3c09c05974198782f6beb0f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/lantern Variant.prefab using Guid(0f3bda3c09c05974198782f6beb0f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ea2675c45cd8b9fc8663741f6efeff') in 0.085244 seconds
+  Import took 0.091877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefabs/stallBench Variant.prefab
+  artifactKey: Guid(45e381d76c111c045ac84ea0da01916e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/stallBench Variant.prefab using Guid(45e381d76c111c045ac84ea0da01916e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31974fdc14e4c8e7e8456ca950ae7e5') in 0.029264 seconds
+  Import took 0.034913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefabs/path_wood Variant.prefab
+  artifactKey: Guid(0f31600fcfa03e144b20dabc8b96fc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/path_wood Variant.prefab using Guid(0f31600fcfa03e144b20dabc8b96fc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb22c088f590362210b43128e908b780') in 0.023519 seconds
+  Import took 0.029792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.754904 seconds.
+  path: Assets/Prefabs/Building Variants/BasicHouse1 Variant.prefab
+  artifactKey: Guid(3e50c161a3f29614bad53add67fd0f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Variants/BasicHouse1 Variant.prefab using Guid(3e50c161a3f29614bad53add67fd0f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dd5b007502a1c1f99153b351609eab') in 0.021345 seconds
+  Import took 0.025379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefabs/Building Variants/BasicHouse9 Variant.prefab
+  artifactKey: Guid(e68c21270a58ee64ca65cb2d65d8ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Variants/BasicHouse9 Variant.prefab using Guid(e68c21270a58ee64ca65cb2d65d8ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f73bf1873684b5a0e4c92febd3ddfcf') in 0.026578 seconds
+  Import took 0.030198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Prefabs/Building Variants/BasicHouse7 Variant.prefab
+  artifactKey: Guid(411e98f81ddb5974a87d4372f5c12946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Variants/BasicHouse7 Variant.prefab using Guid(411e98f81ddb5974a87d4372f5c12946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf67593cae63faecdead2c04070c2612') in 0.056455 seconds
+  Import took 0.060832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Prefabs/Building Variants/BasicHouse4 Variant.prefab
+  artifactKey: Guid(3c7c3bb2fd75dd64f8a1c368e80005a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Variants/BasicHouse4 Variant.prefab using Guid(3c7c3bb2fd75dd64f8a1c368e80005a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f465bfe6f86e57300e6049dd83949f15') in 0.041427 seconds
+  Import took 0.046593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Prefabs/Building Variants/BasicHouse6 Variant.prefab
+  artifactKey: Guid(bd7547054207a1141949e8b7a8f4908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Variants/BasicHouse6 Variant.prefab using Guid(bd7547054207a1141949e8b7a8f4908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ec22c4c3313554c0707ac85bd72f3a') in 0.022311 seconds
+  Import took 0.029274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/Building Variants/BasicHouse5 Variant.prefab
+  artifactKey: Guid(c86c982cd0d71bb47ba97d8531813cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Variants/BasicHouse5 Variant.prefab using Guid(c86c982cd0d71bb47ba97d8531813cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fdf198ed327510f50b647059309d1c') in 0.029554 seconds
+  Import took 0.034532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefabs/Building Variants/BasicHouse3 Variant.prefab
+  artifactKey: Guid(c21f2c1685fda5045b4df02a4072a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Variants/BasicHouse3 Variant.prefab using Guid(c21f2c1685fda5045b4df02a4072a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1772c13bcecdd9b28d0d0f8eebc33e2c') in 0.030632 seconds
+  Import took 0.037198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Prefabs/Building Variants/BasicHouse2 Variant.prefab
+  artifactKey: Guid(a6c9d8db32789074286985b4056e7266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Variants/BasicHouse2 Variant.prefab using Guid(a6c9d8db32789074286985b4056e7266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30f1297e7880ec4b8a2d3d03ce4285e') in 0.046133 seconds
+  Import took 0.051443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Prefabs/Building Variants/BasicHouse8 Variant.prefab
+  artifactKey: Guid(8819f807c3e54b346ac700ec86503b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Variants/BasicHouse8 Variant.prefab using Guid(8819f807c3e54b346ac700ec86503b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0719912ffcae231cda35c87acd04711e') in 0.034490 seconds
+  Import took 0.040808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Prefabs/Building Variants/BasicHouse1 Variant.prefab
+  artifactKey: Guid(3e50c161a3f29614bad53add67fd0f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Variants/BasicHouse1 Variant.prefab using Guid(3e50c161a3f29614bad53add67fd0f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dd5b007502a1c1f99153b351609eab') in 0.020803 seconds
+  Import took 0.026379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.876780 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathBend.fbx
+  artifactKey: Guid(eb77092c759bfd84199e4a2c24302e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathBend.fbx using Guid(eb77092c759bfd84199e4a2c24302e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc31beace2ccc3f8f4fcdef4855875f') in 0.099340 seconds
+  Import took 0.103899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Nature Kit/FBX format/path_stoneEnd.fbx
+  artifactKey: Guid(4d4d60d8f932a824abf832c0d8aeb083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/path_stoneEnd.fbx using Guid(4d4d60d8f932a824abf832c0d8aeb083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735f8d1fce61deff91f4e3e5a5823acf') in 0.057570 seconds
+  Import took 0.063389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathSide.fbx
+  artifactKey: Guid(ad084840cadcc9847a0d95790b4e6eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathSide.fbx using Guid(ad084840cadcc9847a0d95790b4e6eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4397f16a18d104bf9e706d2fbd4dbd81') in 0.041947 seconds
+  Import took 0.046825 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000244 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx
-  artifactKey: Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx using Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a32864173f1229a37dcd9dd552fd44') in 0.013150 seconds
-  Import took 0.017228 seconds .
+  path: Assets/Nature Kit/FBX format/ground_pathSideOpen.fbx
+  artifactKey: Guid(1d0cc704cb683604da08cb88b6201d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathSideOpen.fbx using Guid(1d0cc704cb683604da08cb88b6201d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be27aadd2b97c6604bc88b70e6369753') in 0.048415 seconds
+  Import took 0.052880 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx
-  artifactKey: Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx using Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41db940323f517aea19ce53567477aee') in 0.011295 seconds
-  Import took 0.014580 seconds .
+  Time since last request: 0.000250 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathStraight.fbx
+  artifactKey: Guid(a54b6814845a97945a951b2d8b6d9f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathStraight.fbx using Guid(a54b6814845a97945a951b2d8b6d9f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c09729d29fbe931caa035c0a701f9f2') in 0.044102 seconds
+  Import took 0.049074 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx
-  artifactKey: Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx using Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdddf6a3f6663d2df066a8e3c9a4840') in 0.012468 seconds
-  Import took 0.016448 seconds .
+  Time since last request: 0.000251 seconds.
+  path: Assets/Nature Kit/FBX format/path_woodEnd.fbx
+  artifactKey: Guid(79f2eb0e967dfef4f8bf271b762093d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/path_woodEnd.fbx using Guid(79f2eb0e967dfef4f8bf271b762093d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6056ae75bf31482d230b76b16a433c43') in 0.047171 seconds
+  Import took 0.052087 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx
-  artifactKey: Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx using Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a5651aafa1fac139d08bbd96b4ecd1') in 0.012060 seconds
-  Import took 0.015901 seconds .
+  Time since last request: 0.000231 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathSplit.fbx
+  artifactKey: Guid(8ff721e0ce9ed964f87881522fdf56a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathSplit.fbx using Guid(8ff721e0ce9ed964f87881522fdf56a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883708e8a762b3915cda5cd5d8803429') in 0.047499 seconds
+  Import took 0.052017 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Taunt Chest Thump.fbx
-  artifactKey: Guid(befd3c587634dff42b77430b373765e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Taunt Chest Thump.fbx using Guid(befd3c587634dff42b77430b373765e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a51323bc3f3cc22209042d884414ab') in 0.013884 seconds
-  Import took 0.018061 seconds .
+  Time since last request: 0.000206 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathCorner.fbx
+  artifactKey: Guid(4982bf1bb2e1f9d46860d8c56da78bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathCorner.fbx using Guid(4982bf1bb2e1f9d46860d8c56da78bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f544f19053912a3bf1b005f0150181') in 0.088533 seconds
+  Import took 0.092860 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Animations/Firuze/Battle/uploads_files_712235_lp_skeleton.fbx
-  artifactKey: Guid(28fd383038ad785409bea62d3877eb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/uploads_files_712235_lp_skeleton.fbx using Guid(28fd383038ad785409bea62d3877eb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a809f4737416a81cbd40c93380440c1') in 0.027665 seconds
-  Import took 0.031756 seconds .
+  Time since last request: 0.000255 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathRocks.fbx
+  artifactKey: Guid(b068e4b49b1ff7747911ff7f09d043de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathRocks.fbx using Guid(b068e4b49b1ff7747911ff7f09d043de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0096b3e52e6e7cd4e951067209c62c6') in 0.045001 seconds
+  Import took 0.050829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Nature Kit/FBX format/path_stoneCorner.fbx
+  artifactKey: Guid(2e7aacc0c9289fa449d060eba2cc0949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/path_stoneCorner.fbx using Guid(2e7aacc0c9289fa449d060eba2cc0949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beeae3376551541c13dd8accca2afd3e') in 0.040055 seconds
+  Import took 0.045027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathBendBank.fbx
+  artifactKey: Guid(d78229278d872ee4d93ee8bb7a73b918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathBendBank.fbx using Guid(d78229278d872ee4d93ee8bb7a73b918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d2f175d7b3371e1104a50d8b8584f0') in 0.049409 seconds
+  Import took 0.054042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Nature Kit/FBX format/path_wood.fbx
+  artifactKey: Guid(ca54495b2a62adf4cb8e71d2ec4f9450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/path_wood.fbx using Guid(ca54495b2a62adf4cb8e71d2ec4f9450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983cc1b7d0cd2475e33cdfe7f684e796') in 0.035039 seconds
+  Import took 0.039499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathBendBank.fbx
+  artifactKey: Guid(d78229278d872ee4d93ee8bb7a73b918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathBendBank.fbx using Guid(d78229278d872ee4d93ee8bb7a73b918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d2f175d7b3371e1104a50d8b8584f0') in 0.046460 seconds
+  Import took 0.051187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathEnd.fbx
+  artifactKey: Guid(349c90f451d1c3e47867991e3b856633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathEnd.fbx using Guid(349c90f451d1c3e47867991e3b856633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8165ffed61425bc805d2977119fba4') in 0.039835 seconds
+  Import took 0.044798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathCross.fbx
+  artifactKey: Guid(6c46089b4e2741441aad8859e9ec6adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathCross.fbx using Guid(6c46089b4e2741441aad8859e9ec6adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33860fb146fe3da8a2a432ff13b9d635') in 0.042885 seconds
+  Import took 0.047802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathOpen.fbx
+  artifactKey: Guid(cb5d36780d48144418af025f87d0a379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathOpen.fbx using Guid(cb5d36780d48144418af025f87d0a379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8213e187166e5f3d5974d4151dd081f8') in 0.040142 seconds
+  Import took 0.044901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathEndClosed.fbx
+  artifactKey: Guid(e7357b183a1668d428308c3ee64a85c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathEndClosed.fbx using Guid(e7357b183a1668d428308c3ee64a85c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba06bc0513a723fe1e90dded41821ce9') in 0.038056 seconds
+  Import took 0.044093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Nature Kit/FBX format/path_stoneCircle.fbx
+  artifactKey: Guid(cfd247724ec8bd540b930124f36ec281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/path_stoneCircle.fbx using Guid(cfd247724ec8bd540b930124f36ec281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b5f242db5b12cab5d4bb19906fbbc6') in 0.038037 seconds
+  Import took 0.042033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/Nature Kit/FBX format/path_stone.fbx
+  artifactKey: Guid(be86a26f2f1998849a8addf45db3ed95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/path_stone.fbx using Guid(be86a26f2f1998849a8addf45db3ed95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20776f4b6f09ece77aee5ca91e7b104f') in 0.048638 seconds
+  Import took 0.052856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathCornerSmall.fbx
+  artifactKey: Guid(d09dc061037d322408384612babc3faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathCornerSmall.fbx using Guid(d09dc061037d322408384612babc3faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf1ff8f291bb03420287fcb7aab1b3e') in 0.037865 seconds
+  Import took 0.042301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathTile.fbx
+  artifactKey: Guid(0197c98eee1b82949b4c6e2b6a5830de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathTile.fbx using Guid(0197c98eee1b82949b4c6e2b6a5830de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c73e4f2e2086dd1fe3129a9ee642fb') in 0.044202 seconds
+  Import took 0.048461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Nature Kit/FBX format/ground_pathCornerSmall.fbx
+  artifactKey: Guid(d09dc061037d322408384612babc3faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/ground_pathCornerSmall.fbx using Guid(d09dc061037d322408384612babc3faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf1ff8f291bb03420287fcb7aab1b3e') in 0.050067 seconds
+  Import took 0.054543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Nature Kit/FBX format/path_woodCorner.fbx
+  artifactKey: Guid(5b2b4c6b83062b14480bf2390c680a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/FBX format/path_woodCorner.fbx using Guid(5b2b4c6b83062b14480bf2390c680a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2fac915d23ce3b9197aa547c90f182') in 0.041301 seconds
+  Import took 0.045282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.881491 seconds.
+  path: Assets/Prefabs/path_woodEnd Variant.prefab
+  artifactKey: Guid(30be0562b82017648a5769983549323d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/path_woodEnd Variant.prefab using Guid(30be0562b82017648a5769983549323d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f88a759e1365da2d872d3e20530bcfc') in 0.023042 seconds
+  Import took 0.027894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 318.734375 seconds.
+  path: Assets/Prefabs/path_woodEnd Variant.prefab
+  artifactKey: Guid(30be0562b82017648a5769983549323d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/path_woodEnd Variant.prefab using Guid(30be0562b82017648a5769983549323d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a115d23e1bbbc6b4f4a99726c92acb9e') in 0.025816 seconds
+  Import took 0.032199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.204582 seconds.
+  path: Assets/Buildings/Barack.fbx
+  artifactKey: Guid(856942f3ae9191a4bb192ebbf2a7db6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Barack.fbx using Guid(856942f3ae9191a4bb192ebbf2a7db6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb90e5f5e0f393973b7e0a20339039a4') in 0.034405 seconds
+  Import took 0.039406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Buildings/Docks.fbx
+  artifactKey: Guid(385c16fbddd0e354cae12654f374738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Docks.fbx using Guid(385c16fbddd0e354cae12654f374738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76082cca2396b478998707368d676b04') in 0.116373 seconds
+  Import took 0.120432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Buildings/İNO_FBX.fbx
+  artifactKey: Guid(9b3ead4f76b55b64e83cf379bf85a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/İNO_FBX.fbx using Guid(9b3ead4f76b55b64e83cf379bf85a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca05c4acc9868aaf6464f88623c73f96') in 0.225767 seconds
+  Import took 0.230212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Buildings/BasicHouse9.fbx
+  artifactKey: Guid(7963da33635495e4984e372327463199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/BasicHouse9.fbx using Guid(7963da33635495e4984e372327463199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c077b3ea9d6ec4148dacb3b1b28f9fed') in 0.055001 seconds
+  Import took 0.060160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Buildings/BasicHouse2.fbx
+  artifactKey: Guid(2a2ff7018c7d9504ba4e0e243cb3f72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/BasicHouse2.fbx using Guid(2a2ff7018c7d9504ba4e0e243cb3f72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fdebcb65c9a962c378b18bbc15bc00') in 0.095946 seconds
+  Import took 0.100551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Buildings/Merchant.fbx
+  artifactKey: Guid(e36802da576089348967fe7dced87daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Merchant.fbx using Guid(e36802da576089348967fe7dced87daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf3ebb3af2368af4f9ee0da41b567cc') in 0.153624 seconds
+  Import took 0.158042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Buildings/BasicHouse3.fbx
+  artifactKey: Guid(008e4d32f5bd6af4e812f01985d4ec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/BasicHouse3.fbx using Guid(008e4d32f5bd6af4e812f01985d4ec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f80a02c1ca086f9b24c27dde7d75e8') in 0.128858 seconds
+  Import took 0.133615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Buildings/BasicHouse1.fbx
+  artifactKey: Guid(f480848d13040d6488b66f9946239f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/BasicHouse1.fbx using Guid(f480848d13040d6488b66f9946239f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a005f32906f87f02e1287a1d0ef197c3') in 0.057933 seconds
+  Import took 0.062095 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000208 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx
-  artifactKey: Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx using Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80569a8e585cf3f08af1a29265e45493') in 0.030405 seconds
-  Import took 0.034898 seconds .
+  path: Assets/Buildings/BasicHouse7.fbx
+  artifactKey: Guid(bbd1d510e4863c1419d24b1fec9b29f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/BasicHouse7.fbx using Guid(bbd1d510e4863c1419d24b1fec9b29f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f95888318b79568c937bf4b5e42959f') in 0.111408 seconds
+  Import took 0.116688 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Idle Looking Ver. 1.fbx
-  artifactKey: Guid(74f0a3fa57997294984f3efca864f3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Idle Looking Ver. 1.fbx using Guid(74f0a3fa57997294984f3efca864f3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f45cf00712af2ac3fd322552deba7f') in 0.008079 seconds
-  Import took 0.012371 seconds .
+  Time since last request: 0.000424 seconds.
+  path: Assets/Buildings/BasicHouse4.fbx
+  artifactKey: Guid(01dba1aa65a516b4ba88e8adfc2e6b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/BasicHouse4.fbx using Guid(01dba1aa65a516b4ba88e8adfc2e6b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4e00a56de0ddc2009796fef978e882') in 0.152074 seconds
+  Import took 0.158239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Buildings/BasicHouse6.fbx
+  artifactKey: Guid(7a8b43b29011def47b40ea5df5b7171b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/BasicHouse6.fbx using Guid(7a8b43b29011def47b40ea5df5b7171b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e14a7463db00f864c2f4177a03891c') in 0.081872 seconds
+  Import took 0.087519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Buildings/BasicHouse5.fbx
+  artifactKey: Guid(bbf2f90a5a2412741a1738b0f864888d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/BasicHouse5.fbx using Guid(bbf2f90a5a2412741a1738b0f864888d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802500e76cbfd5ba08ef56f350192135') in 0.108286 seconds
+  Import took 0.115958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Buildings/Muhtarlık.fbx
+  artifactKey: Guid(b61c83417c428494eafdebb60bac1ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Muhtarlık.fbx using Guid(b61c83417c428494eafdebb60bac1ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40df2912d94748399ce6e836264e34be') in 0.230216 seconds
+  Import took 0.235909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/Buildings/Tavern.fbx
+  artifactKey: Guid(061a18b456db6fc4eb4aa6b0fc141338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Tavern.fbx using Guid(061a18b456db6fc4eb4aa6b0fc141338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8361f654b67aac73d9ccf08f5e38a010') in 0.150779 seconds
+  Import took 0.155961 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000195 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx
-  artifactKey: Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx using Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a52911d3653a4320ef7095f7249fb7d') in 0.014908 seconds
-  Import took 0.019207 seconds .
+  path: Assets/Buildings/BasicHouse8.fbx
+  artifactKey: Guid(5afb5394105c70146bda11f3d038b586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/BasicHouse8.fbx using Guid(5afb5394105c70146bda11f3d038b586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9cab07f290f2f80095b91605b65745') in 0.068798 seconds
+  Import took 0.074447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003013 seconds.
+  path: Assets/Buildings/BasicHouse8.fbx
+  artifactKey: Guid(5afb5394105c70146bda11f3d038b586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/BasicHouse8.fbx using Guid(5afb5394105c70146bda11f3d038b586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9cab07f290f2f80095b91605b65745') in 0.088384 seconds
+  Import took 0.093320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.729835 seconds.
+  path: Assets/Prefabs/CoreGame/Battle System.prefab
+  artifactKey: Guid(24e990d3e96017f4ebbf0121ea92740f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CoreGame/Battle System.prefab using Guid(24e990d3e96017f4ebbf0121ea92740f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb4ff3aba8105b68cbb93212f45fccc') in 0.021038 seconds
+  Import took 0.026192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.125701 seconds.
+  path: Assets/Prefabs/friendlies/friendlyCharacter(1).prefab
+  artifactKey: Guid(97b52a8c3943c3749928e48632fd51a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/friendlies/friendlyCharacter(1).prefab using Guid(97b52a8c3943c3749928e48632fd51a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba07a12aa4d318e121abd34a9a42901') in 0.032875 seconds
+  Import took 0.037262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Prefabs/friendlies/friendlyCharacter(3).prefab
+  artifactKey: Guid(29710c908802e9c4fa811a68fc32418e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/friendlies/friendlyCharacter(3).prefab using Guid(29710c908802e9c4fa811a68fc32418e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de11f315e591fe2fc80b619710904c2') in 0.021423 seconds
+  Import took 0.026859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Prefabs/friendlies/friendlyCharacter(4).prefab
+  artifactKey: Guid(ef901c5333f8d7c4b902a1c72721784c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/friendlies/friendlyCharacter(4).prefab using Guid(ef901c5333f8d7c4b902a1c72721784c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09ae1847972f8cdfd413204f5ac98b4') in 0.030577 seconds
+  Import took 0.034385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Prefabs/friendlies/friendlyCharacter(2).prefab
+  artifactKey: Guid(7432a33096ec32d45aaee986a2bd1928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/friendlies/friendlyCharacter(2).prefab using Guid(7432a33096ec32d45aaee986a2bd1928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0948c41d5d8c338b4e31bcbedaa6df4') in 0.026144 seconds
+  Import took 0.030752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.293988 seconds.
+  path: Assets/Prefabs/hostiles/Healthbar.prefab
+  artifactKey: Guid(899b943108253314a9f9d32edeb04268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/hostiles/Healthbar.prefab using Guid(899b943108253314a9f9d32edeb04268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1cb088989875a1e34a01ea7bb410f8') in 0.038932 seconds
+  Import took 0.043216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001015 seconds.
+  path: Assets/Prefabs/hostiles/HostileCharacter (1).prefab
+  artifactKey: Guid(b0771985c80c65345aed9fa6cb1481ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/hostiles/HostileCharacter (1).prefab using Guid(b0771985c80c65345aed9fa6cb1481ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a9ec17e392d690390ba624d31e87ed') in 0.028629 seconds
+  Import took 0.033256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Prefabs/hostiles/HostileCharacter (2).prefab
+  artifactKey: Guid(3fd4af50469376a4ea5c11a51528dd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/hostiles/HostileCharacter (2).prefab using Guid(3fd4af50469376a4ea5c11a51528dd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71253dc08127b362c5c3dceea1dc2089') in 0.020815 seconds
+  Import took 0.024730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Prefabs/hostiles/HostileCharacter (3).prefab
+  artifactKey: Guid(cc54fdd8365ecce4b981e05068257929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/hostiles/HostileCharacter (3).prefab using Guid(cc54fdd8365ecce4b981e05068257929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f12d37b5e36c95da2a9bf4718f0471') in 0.033554 seconds
+  Import took 0.037687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Prefabs/hostiles/HostileCharacter (4).prefab
+  artifactKey: Guid(fceda7867fec6ac4592dee38cd9c6d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/hostiles/HostileCharacter (4).prefab using Guid(fceda7867fec6ac4592dee38cd9c6d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3705ef0ea49101f5925fd052ceb8def') in 0.026158 seconds
+  Import took 0.031348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.815244 seconds.
+  path: Assets/Prefabs/MAP TILES/BeachCorner.prefab
+  artifactKey: Guid(38b6518bfc65948468fa8e567bc5c69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MAP TILES/BeachCorner.prefab using Guid(38b6518bfc65948468fa8e567bc5c69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3327394109ee272e65932c80e0449d') in 0.083444 seconds
+  Import took 0.090268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Prefabs/MAP TILES/BeachSide.prefab
+  artifactKey: Guid(fe19ba6cf1708ed49b2a7e225020d25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MAP TILES/BeachSide.prefab using Guid(fe19ba6cf1708ed49b2a7e225020d25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607127862d05c77e70bdfdbd68338348') in 0.076055 seconds
+  Import took 0.083268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Prefabs/MAP TILES/BeachCorner.prefab
+  artifactKey: Guid(38b6518bfc65948468fa8e567bc5c69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MAP TILES/BeachCorner.prefab using Guid(38b6518bfc65948468fa8e567bc5c69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3327394109ee272e65932c80e0449d') in 0.061241 seconds
+  Import took 0.068842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefabs/MAP TILES/BeachSide.prefab
+  artifactKey: Guid(fe19ba6cf1708ed49b2a7e225020d25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MAP TILES/BeachSide.prefab using Guid(fe19ba6cf1708ed49b2a7e225020d25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607127862d05c77e70bdfdbd68338348') in 0.058488 seconds
+  Import took 0.065858 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000245 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx
-  artifactKey: Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx using Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b810464a99526ce2d885adf33fc7afa') in 0.012714 seconds
-  Import took 0.016548 seconds .
+  path: Assets/Prefabs/MAP TILES/DirtRoadEnd.prefab
+  artifactKey: Guid(5045259713511464ab3bf025af0cde46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MAP TILES/DirtRoadEnd.prefab using Guid(5045259713511464ab3bf025af0cde46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7def3d1c25c0f5d7587ef1f1324b7d') in 0.086982 seconds
+  Import took 0.095589 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx
-  artifactKey: Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx using Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15753acbd2703ca5ac43a29c048ac280') in 0.012161 seconds
-  Import took 0.016361 seconds .
+  Time since last request: 253.561302 seconds.
+  path: Assets/Prefabs/Square Cliff.prefab
+  artifactKey: Guid(083539ec4f5b8074fb021989790a247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Square Cliff.prefab using Guid(083539ec4f5b8074fb021989790a247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa379c433c43a0e8dc80566a6e61d727') in 0.024848 seconds
+  Import took 0.029373 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.758913 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Taunt Chest Thump.fbx
-  artifactKey: Guid(befd3c587634dff42b77430b373765e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Taunt Chest Thump.fbx using Guid(befd3c587634dff42b77430b373765e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e499ec6bbd0b6e0ccb30c409aa47ddb') in 0.006539 seconds
-  Import took 0.010082 seconds .
+  Time since last request: 245.332809 seconds.
+  path: Assets/Prefabs/Square Cliff.prefab
+  artifactKey: Guid(083539ec4f5b8074fb021989790a247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Square Cliff.prefab using Guid(083539ec4f5b8074fb021989790a247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48aeb5fa4de368e31d1b28e856d05dc7') in 0.025205 seconds
+  Import took 0.030092 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.218727 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx
-  artifactKey: Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx using Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936b4789fefc0f1ca655024a8d3f06ff') in 0.007311 seconds
-  Import took 0.010942 seconds .
+  Time since last request: 11.820977 seconds.
+  path: Assets/Prefabs/Square Cliff.prefab
+  artifactKey: Guid(083539ec4f5b8074fb021989790a247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Square Cliff.prefab using Guid(083539ec4f5b8074fb021989790a247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601dd8f4b705fa639ad13c5a1f6f01d1') in 0.014023 seconds
+  Import took 0.019230 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000460 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx
-  artifactKey: Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Taunt Battlecry.fbx using Guid(5f55a2cf8b2f9954b8196cbaf593c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936b4789fefc0f1ca655024a8d3f06ff') in 0.007891 seconds
-  Import took 0.011409 seconds .
+  Time since last request: 84.250009 seconds.
+  path: Assets/Prefabs/Square Cliff.prefab
+  artifactKey: Guid(083539ec4f5b8074fb021989790a247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Square Cliff.prefab using Guid(083539ec4f5b8074fb021989790a247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881511d5599f2c4ec937fe5b0b015171') in 0.015956 seconds
+  Import took 0.020844 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 55.799602 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx
-  artifactKey: Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx using Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864be56649d8b40a4da3001f5fb8765b') in 0.006703 seconds
-  Import took 0.010789 seconds .
+  Time since last request: 542.874288 seconds.
+  path: Assets/Prefabs/Square cliff.prefab
+  artifactKey: Guid(083539ec4f5b8074fb021989790a247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Square cliff.prefab using Guid(083539ec4f5b8074fb021989790a247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5812281bf7a62f7a32a77fcca0403d') in 0.024979 seconds
+  Import took 0.029900 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001305 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx
-  artifactKey: Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing React Large From Right.fbx using Guid(cb74ac5311f5bc84d9629a06dc08aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864be56649d8b40a4da3001f5fb8765b') in 0.006888 seconds
-  Import took 0.010265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.469905 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx
-  artifactKey: Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx using Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f69c8ba42eed0ad64e4d749a443581') in 0.007006 seconds
-  Import took 0.010813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001354 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx
-  artifactKey: Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing React Large From Left.fbx using Guid(7374e5978fd4cbd4fa521dfc56b4f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f69c8ba42eed0ad64e4d749a443581') in 0.007666 seconds
-  Import took 0.010698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.933052 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx
-  artifactKey: Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx using Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352ab31bf5d9e7814b37678a8c44a9a0') in 0.006590 seconds
-  Import took 0.010069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002736 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx
-  artifactKey: Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing React Large Gut.fbx using Guid(976bde59554d2a24caea2dda748c5ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352ab31bf5d9e7814b37678a8c44a9a0') in 0.007194 seconds
-  Import took 0.010752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.736540 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx
-  artifactKey: Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx using Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a48788b9400eb9a803f8cf32902dea2') in 0.010053 seconds
-  Import took 0.013572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001137 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx
-  artifactKey: Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Run Jump Attack.fbx using Guid(7d407c12575d28e42a6d908196474874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a48788b9400eb9a803f8cf32902dea2') in 0.009618 seconds
-  Import took 0.013572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.887983 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx
-  artifactKey: Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx using Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae011b976b6a7b1002cf7c347e71ef83') in 0.007365 seconds
-  Import took 0.010736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.488198 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx
-  artifactKey: Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx using Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f02cec25e9b34bc7a046bc6f940102') in 0.007587 seconds
-  Import took 0.011039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001450 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx
-  artifactKey: Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 3.fbx using Guid(4a14ae07e30964d47a58ca2095a01e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f02cec25e9b34bc7a046bc6f940102') in 0.007591 seconds
-  Import took 0.012060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.578369 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx
-  artifactKey: Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx using Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0404b45ad29a971f24c8f24da4279ab0') in 0.008613 seconds
-  Import took 0.012230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002124 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx
-  artifactKey: Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 2.fbx using Guid(878327f6a1846be4193886d1806db5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0404b45ad29a971f24c8f24da4279ab0') in 0.008738 seconds
-  Import took 0.012316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.426373 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx
-  artifactKey: Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx using Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a56e91befc103c7feaa6c7f4c71a17') in 0.009584 seconds
-  Import took 0.014562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002429 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx
-  artifactKey: Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Combo Attack Ver. 1.fbx using Guid(ac043fa2445c4254a959af0d20418fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a56e91befc103c7feaa6c7f4c71a17') in 0.009913 seconds
-  Import took 0.014687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.668545 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx
-  artifactKey: Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx using Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66829530b1953f849ce231b157dbfd6c') in 0.007501 seconds
-  Import took 0.011260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001755 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx
-  artifactKey: Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Kick Ver. 1.fbx using Guid(b225d440cf6bd944fafa2750681b0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66829530b1953f849ce231b157dbfd6c') in 0.007990 seconds
-  Import took 0.011055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.063938 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx
-  artifactKey: Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx using Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b822a9e2136442663b37856c0297674') in 0.007644 seconds
-  Import took 0.011428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001339 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx
-  artifactKey: Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Horizontal.fbx using Guid(9a2c2960454daee4db21a1b42959ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b822a9e2136442663b37856c0297674') in 0.007504 seconds
-  Import took 0.011480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.484220 seconds.
-  path: Assets/Animations/Firuze_Hanim_Controller.controller
-  artifactKey: Guid(98eef0f9afd7a394a8e22d000edeccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze_Hanim_Controller.controller using Guid(98eef0f9afd7a394a8e22d000edeccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf21d6d7b83655449c6238fba972fee') in 0.007374 seconds
-  Import took 0.010984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000674 seconds.
-  path: Assets/Animations/Firuze_Hanim_Controller.controller
-  artifactKey: Guid(98eef0f9afd7a394a8e22d000edeccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze_Hanim_Controller.controller using Guid(98eef0f9afd7a394a8e22d000edeccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf21d6d7b83655449c6238fba972fee') in 0.005656 seconds
-  Import took 0.009007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.776673 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx
-  artifactKey: Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx using Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae741087ebc4ac24f46024c0fff134a3') in 0.009213 seconds
-  Import took 0.012693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001356 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx
-  artifactKey: Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Downward.fbx using Guid(45f8df39e10700843b31d43bbd2031f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae741087ebc4ac24f46024c0fff134a3') in 0.007351 seconds
-  Import took 0.011745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.728826 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx
-  artifactKey: Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx using Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0913cfc41145ead86acc198cb873b95') in 0.007768 seconds
-  Import took 0.011409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003025 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx
-  artifactKey: Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack Backhand.fbx using Guid(610b81451658cc14ca522922ae19617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0913cfc41145ead86acc198cb873b95') in 0.008246 seconds
-  Import took 0.011691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.155969 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx
-  artifactKey: Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx using Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ef3725b51864cae938dcc5234ce357') in 0.012061 seconds
-  Import took 0.015422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000585 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx
-  artifactKey: Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 Low.fbx using Guid(00a7bbf086e29c541bbabaa144234897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ef3725b51864cae938dcc5234ce357') in 0.008544 seconds
-  Import took 0.011950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.035360 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx
-  artifactKey: Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx using Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ec25b5f9ff286ff4dafd2aeec2036e') in 0.007767 seconds
-  Import took 0.011461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000647 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx
-  artifactKey: Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Melee Attack 360 High.fbx using Guid(1c1b6544c18562949a9aa0c0e9836a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ec25b5f9ff286ff4dafd2aeec2036e') in 0.007590 seconds
-  Import took 0.010949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.783825 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Block Idle.fbx
-  artifactKey: Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Block Idle.fbx using Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c032ac61804357645980f5d5e7635be') in 0.007415 seconds
-  Import took 0.011156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000993 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Block Idle.fbx
-  artifactKey: Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Block Idle.fbx using Guid(4bd8e610b5dcf93479c8ff08cedb912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c032ac61804357645980f5d5e7635be') in 0.007735 seconds
-  Import took 0.011631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.811857 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Block React Large.fbx
-  artifactKey: Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Block React Large.fbx using Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3c071340ab6c2f9fd00265e99ad051') in 0.011245 seconds
-  Import took 0.014769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.703162 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Block React Large.fbx
-  artifactKey: Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Block React Large.fbx using Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5247b96fb0a47604cf816e091e56d86c') in 0.007326 seconds
-  Import took 0.010903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001159 seconds.
-  path: Assets/Animations/Firuze/Battle/Standing Block React Large.fbx
-  artifactKey: Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Firuze/Battle/Standing Block React Large.fbx using Guid(b88b2d782325a134b938f58428bf77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5247b96fb0a47604cf816e091e56d86c') in 0.008188 seconds
-  Import took 0.011379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 326.006290 seconds.
-  path: Assets/Scenes/CombatScene.unity
-  artifactKey: Guid(0333d864760f8004d80b56dbac1ca364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CombatScene.unity using Guid(0333d864760f8004d80b56dbac1ca364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c8ad3a38a488e7d4be7b30a4020e89') in 0.010005 seconds
-  Import took 0.013744 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001361 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1728 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.2 MB.
-System memory in use after: 84.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2268.
-Total: 2.790300 ms (FindLiveObjects: 0.232300 ms CreateObjectMapping: 0.043400 ms MarkObjects: 2.419000 ms  DeleteObjects: 0.094100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.730924 seconds.
-  path: Assets/Scenes/Ada1.unity
-  artifactKey: Guid(bbcb4354acb55034c9dd6d9b24b19b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Ada1.unity using Guid(bbcb4354acb55034c9dd6d9b24b19b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bfff514b4f66505cbad5df3bffe261') in 0.014646 seconds
-  Import took 0.018544 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
