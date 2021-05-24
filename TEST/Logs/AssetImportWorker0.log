@@ -1,618 +1,435 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'tr' Physical Memory: 16319 MB
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'tr' Physical Memory: 16332 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity Versions\2020.3.0f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/GitHub/unity-test/Yenirep/TEST
+C:/Unity/Unity3D/Yenirep/TEST
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-19365
-Successfully changed project path to: D:/GitHub/unity-test/Yenirep/TEST
-D:/GitHub/unity-test/Yenirep/TEST
+59480
+Successfully changed project path to: C:/Unity/Unity3D/Yenirep/TEST
+C:/Unity/Unity3D/Yenirep/TEST
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.02 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.97 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
-[Subsystems] Discovering subsystems at path D:/Unity Versions/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitHub/unity-test/Yenirep/TEST/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/Unity3D/Yenirep/TEST/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Renderer: Radeon RX 580 Series (ID=0x67df)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   27.21.14.6647
+    VRAM:     8171 MB
+    Driver:   27.20.12031.1000
 Initialize mono
-Mono path[0] = 'D:/Unity Versions/2020.3.0f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity Versions/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity Versions/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity Versions/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004796 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003104 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.412 seconds
+- Completed reload, in  1.334 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001324 seconds.
+Registered in 0.001078 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001E8F68C76C0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F6701010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F35E3830 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F6701010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F35E3830 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F65F0360 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F6709A20 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3545E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F6A73BD0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F55A0640 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3608FA0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F56B3020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3610FB0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F5089010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3610FB0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F34C3E90 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F56E0A30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F55B7020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F55B7020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F340CE80 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3545E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F1DCC940 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3545E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F575B020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F5785C30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F55A0640 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3545E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.149 seconds
+- Completed reload, in  1.111 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1773 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.8 MB.
-System memory in use after: 83.8 MB.
-
-Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 2209.
-Total: 2.584800 ms (FindLiveObjects: 0.226500 ms CreateObjectMapping: 0.046600 ms MarkObjects: 2.117300 ms  DeleteObjects: 0.193400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/sword_SE.png
-  artifactKey: Guid(4bcc8c5d951b4f544bac951205baaaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sword_SE.png using Guid(4bcc8c5d951b4f544bac951205baaaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f7b7714cf3ee9cce50c60503629c76') in 0.113004 seconds
-  Import took 0.116021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Başlıksız.png
-  artifactKey: Guid(51d0f8150d44d8742bfc0c6e13185c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Başlıksız.png using Guid(51d0f8150d44d8742bfc0c6e13185c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2cac869ab5bf7b102f1089fbb5c477') in 0.031500 seconds
-  Import took 0.034509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 857.502372 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(0501b9f27ad77c54d94ad42de7e68a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(0501b9f27ad77c54d94ad42de7e68a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cf4d787eb542d47034cdd01d56f5fa') in 0.008605 seconds
-  Import took 0.011649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054535 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(0501b9f27ad77c54d94ad42de7e68a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(0501b9f27ad77c54d94ad42de7e68a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cf4d787eb542d47034cdd01d56f5fa') in 0.002648 seconds
-  Import took 0.005603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.223864 seconds.
-  path: Assets/Scenes/Ada2.unity
-  artifactKey: Guid(9ed4028fa3106834f83b0550de29bc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Ada2.unity using Guid(9ed4028fa3106834f83b0550de29bc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab43ce0d66d3bc29398569cca1891e42') in 0.007692 seconds
-  Import took 0.010648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.055602 seconds.
-  path: Assets/Scenes/Ada1.unity
-  artifactKey: Guid(bbcb4354acb55034c9dd6d9b24b19b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Ada1.unity using Guid(bbcb4354acb55034c9dd6d9b24b19b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29d284f316ce1a3b019d3a5784a5b0c') in 0.007082 seconds
-  Import took 0.010123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.917514 seconds.
-  path: Assets/Models
-  artifactKey: Guid(4973d9b31a216a344b902089671fc6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(4973d9b31a216a344b902089671fc6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284c480592a1aa77ebdb40467c99fb77') in 0.008131 seconds
-  Import took 0.011291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.105828 seconds.
-  path: Assets/Models/Barbarian Wyder.FBX
-  artifactKey: Guid(006a8310361e17a42a3af42b9a2e3756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Barbarian Wyder.FBX using Guid(006a8310361e17a42a3af42b9a2e3756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace442797b14278d24d4e200ccea5fde') in 0.497997 seconds
-  Import took 0.501504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Models/peasant_girl.fbx
-  artifactKey: Guid(d6e65ce2cbcf6d74881c0f1d096875e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/peasant_girl.fbx using Guid(d6e65ce2cbcf6d74881c0f1d096875e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e182deded8142685369ae4ba1b8178') in 0.368244 seconds
-  Import took 0.371742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Models/model.dae
-  artifactKey: Guid(8b6a285475ba83140971561044fd8f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/model.dae using Guid(8b6a285475ba83140971561044fd8f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246742fa714eebc8930644a467278a4c') in 0.119122 seconds
-  Import took 0.122328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Models/Luger.prefab
-  artifactKey: Guid(0a582b3f4a4b3dc4287100b71e43f011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Luger.prefab using Guid(0a582b3f4a4b3dc4287100b71e43f011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4398e7292b95d89c89f9814f84871d2') in 0.709641 seconds
-  Import took 0.713766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Models/Hammer.FBX
-  artifactKey: Guid(2096fb59498118440be51e48c0513073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hammer.FBX using Guid(2096fb59498118440be51e48c0513073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4b80a1d86e663a8135d1a8dfc30e95') in 0.036791 seconds
-  Import took 0.039764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Models/Shield.FBX
-  artifactKey: Guid(6cadb436dcf802e4597c2c9a0131ed52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield.FBX using Guid(6cadb436dcf802e4597c2c9a0131ed52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b104ea12f67e391b90216d79cd5d019') in 0.041863 seconds
-  Import took 0.044634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.327653 seconds.
-  path: Assets/Models/Meshtint Free Barbarian
-  artifactKey: Guid(9a66ebb5277c96b4ba26de119866b9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian using Guid(9a66ebb5277c96b4ba26de119866b9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90af7cbf295b21765abc1128aece2af0') in 0.007124 seconds
-  Import took 0.010280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.097349 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)
-  artifactKey: Guid(d921b9e9f8fc99f4c85ffe39fe08ad09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported) using Guid(d921b9e9f8fc99f4c85ffe39fe08ad09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fa85a5e3d5d2714c692c27be4dd083') in 0.007680 seconds
-  Import took 0.011206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.148651 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations
-  artifactKey: Guid(0bd505be2cbb05d42b288a4bb0f46644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations using Guid(0bd505be2cbb05d42b288a4bb0f46644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ba1a3e136acc111058ff665c776cb9') in 0.006989 seconds
-  Import took 0.010187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.218883 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@attack01.FBX
-  artifactKey: Guid(b5e8007198f91514d8b63895b05a352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@attack01.FBX using Guid(b5e8007198f91514d8b63895b05a352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58b56fd445d1d33b85e55a77b86aac0') in 0.056996 seconds
-  Import took 0.060258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@attack02.FBX
-  artifactKey: Guid(9a3542968120aaa4698ce2cf51297566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@attack02.FBX using Guid(9a3542968120aaa4698ce2cf51297566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334ce3eb33492b03caf106588810f3ad') in 0.023942 seconds
-  Import took 0.026895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@walk.FBX
-  artifactKey: Guid(8d6c3b6897ccb7b4a921f0e0938a65d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@walk.FBX using Guid(8d6c3b6897ccb7b4a921f0e0938a65d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8621a2f10d2f7a7d0ab00f2942691c') in 0.062760 seconds
-  Import took 0.066000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@die.FBX
-  artifactKey: Guid(b2eea66bce9b6864aae888a54842be11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@die.FBX using Guid(b2eea66bce9b6864aae888a54842be11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875e60367351c64d8a90f1789ae842ac') in 0.039135 seconds
-  Import took 0.041919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@defend.FBX
-  artifactKey: Guid(3b80d669d73008f49b9ea29fe62400b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@defend.FBX using Guid(3b80d669d73008f49b9ea29fe62400b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3334d514fd03307e630866d7960e9b50') in 0.011891 seconds
-  Import took 0.014693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@jump.FBX
-  artifactKey: Guid(3c0eb1c5b758c274a80eacfcb43877ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@jump.FBX using Guid(3c0eb1c5b758c274a80eacfcb43877ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2b3e11455ec53a145e2196fadacc9d') in 0.034748 seconds
-  Import took 0.037892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@idle.FBX
-  artifactKey: Guid(6b000f9af4b34ba4e8d4bd3923e42e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@idle.FBX using Guid(6b000f9af4b34ba4e8d4bd3923e42e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568f53f2215062671f59c0b8105529ba') in 0.013623 seconds
-  Import took 0.016496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@run.FBX
-  artifactKey: Guid(f1b9d51b1bb27ba4a8d1c392a3b04a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@run.FBX using Guid(f1b9d51b1bb27ba4a8d1c392a3b04a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874435aed0c7f98234d6d3d619cb5c4c') in 0.047252 seconds
-  Import took 0.050519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@hit.FBX
-  artifactKey: Guid(d4dbcd3a3960ca5429cc7f52348e51ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian Wyder@hit.FBX using Guid(d4dbcd3a3960ca5429cc7f52348e51ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562e36afbb60fe12a5b3b2df135cf2a9') in 0.039721 seconds
-  Import took 0.042884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.199776 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Controller/Barbarian Wyder Controller.controller
-  artifactKey: Guid(64b103d076aa7d048acbc966657439a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Controller/Barbarian Wyder Controller.controller using Guid(64b103d076aa7d048acbc966657439a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21a4925ccf3f2bcb8b6c206c7fef82f') in 0.022241 seconds
-  Import took 0.025824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.417226 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/FBX/Barbarian Wyder.FBX
-  artifactKey: Guid(f2b6f64ec23092a4fbe12d90b4535537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/FBX/Barbarian Wyder.FBX using Guid(f2b6f64ec23092a4fbe12d90b4535537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b154db65453579fd09ad3d03c8e827') in 0.066233 seconds
-  Import took 0.070292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.871634 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/FBX/Barbarian Wyder.FBX
-  artifactKey: Guid(f2b6f64ec23092a4fbe12d90b4535537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/FBX/Barbarian Wyder.FBX using Guid(f2b6f64ec23092a4fbe12d90b4535537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20063d659d57d29f199a130daa685529') in 0.039000 seconds
-  Import took 0.042649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.949921 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Controller
-  artifactKey: Guid(7818445ac40f3f442a39b2a5686dd2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Controller using Guid(7818445ac40f3f442a39b2a5686dd2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628f1bf6c5582a172537545326622ad3') in 0.006849 seconds
-  Import took 0.010344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.063620 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/FBX
-  artifactKey: Guid(5189c98fb2682f043b9860e9dc980b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/FBX using Guid(5189c98fb2682f043b9860e9dc980b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0adc82c74a0502285c18f75677a623') in 0.006779 seconds
-  Import took 0.009823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.023779 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs
-  artifactKey: Guid(67b7b3672e14d6d478f7885b21763fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs using Guid(67b7b3672e14d6d478f7885b21763fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9155ba13fe9d709a463d12b90bfa39') in 0.006815 seconds
-  Import took 0.010157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092003 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian Wyder-Blue.prefab
-  artifactKey: Guid(6158de069076588499bc78726c6fb6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian Wyder-Blue.prefab using Guid(6158de069076588499bc78726c6fb6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9103612f81b3ddc519683b64244ffe') in 0.029118 seconds
-  Import took 0.032462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian Wyder-Gold.prefab
-  artifactKey: Guid(42924ef67640a2b44884e089dd1ab202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian Wyder-Gold.prefab using Guid(42924ef67640a2b44884e089dd1ab202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9639143dd0b6006f7ee81ba67a829536') in 0.009359 seconds
-  Import took 0.012576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian Wyder-Red.prefab
-  artifactKey: Guid(80eb9572fa9023d4783f58bde481a7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian Wyder-Red.prefab using Guid(80eb9572fa9023d4783f58bde481a7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddfbd2ce5ee9c35b9f92283f5ba1ba0') in 0.008779 seconds
-  Import took 0.011654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian Wyder-Green.prefab
-  artifactKey: Guid(d4c1782f60f85634f9c65b6aefb5d9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian Wyder-Green.prefab using Guid(d4c1782f60f85634f9c65b6aefb5d9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59a50da5ba6ab439a5e3162543806aa') in 0.009468 seconds
-  Import took 0.012360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.039694 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/PPP
-  artifactKey: Guid(21b28afe4c363414995bdbdf47f7e78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/PPP using Guid(21b28afe4c363414995bdbdf47f7e78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a738437f806a9848b5fa0977499846') in 0.006859 seconds
-  Import took 0.009930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096683 seconds.
-  path: Assets/Models/Meshtint Free Barbarian/PPP/PPP.asset
-  artifactKey: Guid(c461d139a78785949aba1fe1b71d8f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meshtint Free Barbarian/PPP/PPP.asset using Guid(c461d139a78785949aba1fe1b71d8f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a38d337f646a1e83dd5c531ccc9209') in 0.004961 seconds
-  Import took 0.008328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.681766 seconds.
-  path: Assets/Models/Hammer.FBX
-  artifactKey: Guid(2096fb59498118440be51e48c0513073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hammer.FBX using Guid(2096fb59498118440be51e48c0513073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34eac908b1937dcd6d1e0f3e2c61429') in 0.012213 seconds
-  Import took 0.015265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015364 seconds.
-  path: Assets/Models/Hammer.FBX
-  artifactKey: Guid(2096fb59498118440be51e48c0513073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hammer.FBX using Guid(2096fb59498118440be51e48c0513073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34eac908b1937dcd6d1e0f3e2c61429') in 0.017559 seconds
-  Import took 0.020813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.938935 seconds.
-  path: Assets/Models/Shield.FBX
-  artifactKey: Guid(6cadb436dcf802e4597c2c9a0131ed52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield.FBX using Guid(6cadb436dcf802e4597c2c9a0131ed52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0763a35229f28d4d400ffcde58b2474') in 0.015239 seconds
-  Import took 0.018451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.947407 seconds.
-  path: Assets/Medieval Town (base)
-  artifactKey: Guid(8dada11afbb8c1847a9926cb4914a321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Town (base) using Guid(8dada11afbb8c1847a9926cb4914a321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ee45845122324b7e746d7208beabc7') in 0.007132 seconds
-  Import took 0.010263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.430797 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(3ea503d7583627747b275bd9e987752a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(3ea503d7583627747b275bd9e987752a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a0295dfa2f4f727176623548452515') in 0.007119 seconds
-  Import took 0.010142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.083157 seconds.
-  path: Assets/Materials/Barbarian Wyder-Blue.mat
-  artifactKey: Guid(02532b8f525b4f84f90d2857093ab8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Barbarian Wyder-Blue.mat using Guid(02532b8f525b4f84f90d2857093ab8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c492c6e00a085ba94769b343c96811c9') in 0.077798 seconds
-  Import took 0.080868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Materials/Barbarian Wyder-Red.mat
-  artifactKey: Guid(16aa8a696c9979b4fa8e3954d4af1ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Barbarian Wyder-Red.mat using Guid(16aa8a696c9979b4fa8e3954d4af1ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfdfc42303143083d4acf25c95ad574') in 0.075373 seconds
-  Import took 0.078003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Materials/Gras_Light.mat
-  artifactKey: Guid(22ea158a65cb83646b79e086e9d38214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Gras_Light.mat using Guid(22ea158a65cb83646b79e086e9d38214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d07a21d3358f3b21b70516c2b1e863') in 0.013262 seconds
-  Import took 0.016248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Materials/Firuze.mat
-  artifactKey: Guid(150c53d1ef736b34c8acc668853648b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Firuze.mat using Guid(150c53d1ef736b34c8acc668853648b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bcbdc8b9fa8d5c9828379544f45acd') in 0.046537 seconds
-  Import took 0.050361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Materials/Barbarian Wyder-Green.mat
-  artifactKey: Guid(7771a6548ef6fe44b8f8fd058d8609e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Barbarian Wyder-Green.mat using Guid(7771a6548ef6fe44b8f8fd058d8609e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844ec5f66a382d74c26dc69ecd0a90b5') in 0.058638 seconds
-  Import took 0.061691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Materials/Luger_Barrel.mat
-  artifactKey: Guid(3b2dd762c56e14a4b843073ae02bf2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Luger_Barrel.mat using Guid(3b2dd762c56e14a4b843073ae02bf2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbc323671060846bbd2e66c02409b17') in 0.035077 seconds
-  Import took 0.038566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Materials/water.mat
-  artifactKey: Guid(967ccf79db499d743b91860039215d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/water.mat using Guid(967ccf79db499d743b91860039215d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098552b555275b580c4198ed373d33a8') in 0.038427 seconds
-  Import took 0.041578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Materials/Barbarian Wyder-Gold.mat
-  artifactKey: Guid(1cc3e026954f4434e9ee78b3a0f47d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Barbarian Wyder-Gold.mat using Guid(1cc3e026954f4434e9ee78b3a0f47d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8966aacbfe9decc5063b84ab97ac905f') in 0.049939 seconds
-  Import took 0.052985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Materials/Luger_Body.mat
-  artifactKey: Guid(e4a9796f433980c4a971e6c1c870d110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Luger_Body.mat using Guid(e4a9796f433980c4a971e6c1c870d110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4dbb2fb40af19119483b2567b411f7') in 0.021478 seconds
-  Import took 0.024531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Materials/sword_SE.mat
-  artifactKey: Guid(7495a99b5af5c154cbf0b83c4af9bd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/sword_SE.mat using Guid(7495a99b5af5c154cbf0b83c4af9bd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711bc6f2d6accd78009cfd168e13449a') in 0.037634 seconds
-  Import took 0.040405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Materials/Leaf_Light.mat
-  artifactKey: Guid(ef33920abe3d86b4a971f71513940b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Leaf_Light.mat using Guid(ef33920abe3d86b4a971f71513940b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4222987327e35b6ab7c2b4c67f755692') in 0.013487 seconds
-  Import took 0.016671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Materials/Gras.mat
-  artifactKey: Guid(33a177f5152a6ef4cb5a1482201e548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Gras.mat using Guid(33a177f5152a6ef4cb5a1482201e548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b463d3fd81e36f1a63f09acfb056dfd') in 0.014930 seconds
-  Import took 0.017754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Materials/Leaf_Dark.mat
-  artifactKey: Guid(47a8398bab670654abc90958389acf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Leaf_Dark.mat using Guid(47a8398bab670654abc90958389acf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d11281ead68e75b41ceb99537340fa8') in 0.015067 seconds
-  Import took 0.018587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Materials/sand.mat
-  artifactKey: Guid(3ac33114ba9e8f44082e225b5560b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/sand.mat using Guid(3ac33114ba9e8f44082e225b5560b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3205c41016ae05cf437e9b63cfbce848') in 0.012861 seconds
-  Import took 0.015654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 199.965510 seconds.
-  path: Assets/Materials/Textures
-  artifactKey: Guid(22d033cf73805924aa8e3851972e9769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures using Guid(22d033cf73805924aa8e3851972e9769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a66e5f58d7922a47e7446d3d324e63') in 0.008556 seconds
-  Import took 0.011786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095649 seconds.
-  path: Assets/Materials/Textures/BarbarianWyder-Blue.tga
-  artifactKey: Guid(be4131e3a7fa8fb41b005c58fc228645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/BarbarianWyder-Blue.tga using Guid(be4131e3a7fa8fb41b005c58fc228645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b7bc7039b10bcfe5ae0baf1b245515') in 0.018346 seconds
-  Import took 0.021415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Materials/Textures/BarbarianWyder-Gold.tga
-  artifactKey: Guid(8a0c1ac6b72068440a1cdef27d33c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/BarbarianWyder-Gold.tga using Guid(8a0c1ac6b72068440a1cdef27d33c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c2ebffe78a2d97e86f05a0a8c4b57f') in 0.012118 seconds
-  Import took 0.014814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Materials/Textures/BarbarianWyder-Red.tga
-  artifactKey: Guid(529d0a9294defc840888d95f604b5ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/BarbarianWyder-Red.tga using Guid(529d0a9294defc840888d95f604b5ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebc1f65adc8ac653785c011d789d8c3') in 0.016808 seconds
-  Import took 0.019755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Materials/Textures/BarbarianWyder-Green.tga
-  artifactKey: Guid(eaaa81ca6413ae2489caad7f12a0a945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/BarbarianWyder-Green.tga using Guid(eaaa81ca6413ae2489caad7f12a0a945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419a4be6abb8185043b6121cfe92308c') in 0.014857 seconds
-  Import took 0.017865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.854152 seconds.
-  path: Assets/Barbarian Wyder.prefab
-  artifactKey: Guid(21a10451f3b2ca24d9d0488bb6ea3e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Barbarian Wyder.prefab using Guid(21a10451f3b2ca24d9d0488bb6ea3e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c5f79689ef49566e41815ac1d86334') in 0.019320 seconds
-  Import took 0.023045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.776116 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(f2b6cb195586ed444a7054f4cd5fbd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(f2b6cb195586ed444a7054f4cd5fbd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589bda0e3d4de4146caea9bbc7a1b654') in 0.002706 seconds
-  Import took 0.005625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.104923 seconds.
-  path: Assets/Prefabs/lantern Variant.prefab
-  artifactKey: Guid(0f3bda3c09c05974198782f6beb0f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/lantern Variant.prefab using Guid(0f3bda3c09c05974198782f6beb0f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd85ee78cfef4ef36f91fb96725815c') in 0.012288 seconds
-  Import took 0.015662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Prefabs/stallBench Variant.prefab
-  artifactKey: Guid(45e381d76c111c045ac84ea0da01916e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stallBench Variant.prefab using Guid(45e381d76c111c045ac84ea0da01916e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795163ecc10dcd0bed937f25a096f277') in 0.014251 seconds
-  Import took 0.017153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Prefabs/path_woodEnd Variant.prefab
-  artifactKey: Guid(30be0562b82017648a5769983549323d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/path_woodEnd Variant.prefab using Guid(30be0562b82017648a5769983549323d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37769c10cf0ca84407645f68649b0255') in 0.027312 seconds
-  Import took 0.030732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Prefabs/Square cliff.prefab
-  artifactKey: Guid(083539ec4f5b8074fb021989790a247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Square cliff.prefab using Guid(083539ec4f5b8074fb021989790a247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6df487037d25c1c7426b0d9adfdfbca') in 0.016476 seconds
-  Import took 0.019403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Prefabs/path_wood Variant.prefab
-  artifactKey: Guid(0f31600fcfa03e144b20dabc8b96fc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/path_wood Variant.prefab using Guid(0f31600fcfa03e144b20dabc8b96fc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6937f40b351d64080c8fb1e297ff5df1') in 0.013670 seconds
-  Import took 0.016858 seconds .
-
+Unloading 1771 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.1 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 2209.
+Total: 3.319400 ms (FindLiveObjects: 0.245600 ms CreateObjectMapping: 0.055800 ms MarkObjects: 2.765200 ms  DeleteObjects: 0.251000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/BattleSystem.cs
+  artifactKey: Guid(7bfc990152e598c439c369969ea700d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattleSystem.cs using Guid(7bfc990152e598c439c369969ea700d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ae89c18e04b6a443597ae3124e3f9f') in 0.026098 seconds
+  Import took 0.029247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.458614 seconds.
+  path: Assets/Scripts/Unit.cs
+  artifactKey: Guid(6290b2b7fd5a61d43b85cb306ba4c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Unit.cs using Guid(6290b2b7fd5a61d43b85cb306ba4c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7314f165481d7c356747eaf909f0d9eb') in 0.013739 seconds
+  Import took 0.018376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001605 seconds.
+  path: Assets/Scripts/Unit.cs
+  artifactKey: Guid(6290b2b7fd5a61d43b85cb306ba4c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Unit.cs using Guid(6290b2b7fd5a61d43b85cb306ba4c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7314f165481d7c356747eaf909f0d9eb') in 0.008422 seconds
+  Import took 0.013305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.676377 seconds.
+  path: Assets/Scripts/BattleHud.cs
+  artifactKey: Guid(2b6b7a731b0684a4db916b0267dac8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattleHud.cs using Guid(2b6b7a731b0684a4db916b0267dac8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abeb605a59d1a24fef6464b13733b065') in 0.008171 seconds
+  Import took 0.011215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Scripts/BattleHud.cs
+  artifactKey: Guid(2b6b7a731b0684a4db916b0267dac8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattleHud.cs using Guid(2b6b7a731b0684a4db916b0267dac8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abeb605a59d1a24fef6464b13733b065') in 0.003067 seconds
+  Import took 0.006049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.986237 seconds.
+  path: Assets/Scripts/HealthBar.cs
+  artifactKey: Guid(e15eafff1050d1f4ab799a948dabc659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthBar.cs using Guid(e15eafff1050d1f4ab799a948dabc659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2e4e16cc04c92f85ffc1bc4385a28e') in 0.015692 seconds
+  Import took 0.020158 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001834 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E8F68C76C0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F6A62010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F4F9E0A0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F6A62010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F5B67C10 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7081AE9E0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F6A62010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F33E4B70 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F8119570 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3936040 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F373D010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F56B3020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F373D010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F5089010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F373D010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3453050 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F373D010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F7EF4010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F6519020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F33E4B70 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F6D76E20 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F1DCCFD0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F6A75420 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F6519020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F7F03420 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3555120 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F363E110 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1729 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2213.
+Total: 2.354600 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.040500 ms MarkObjects: 2.032100 ms  DeleteObjects: 0.078500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001818 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E8F33064A0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F503A010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E918AC2110 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F4DC5EC0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F56C1EE0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F82092D0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F4DC5EC0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F5D00020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F75B9B90 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3936040 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F37CB010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F61B2010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F37CB010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E918BAA010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F37CB010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F32C1030 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F503A010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F6C00010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F5089010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F37CB010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3553D20 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F1DCC940 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3553D20 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F77F6E20 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F505F010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F7881E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3553D20 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1728 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2216.
+Total: 2.366400 ms (FindLiveObjects: 0.230400 ms CreateObjectMapping: 0.044100 ms MarkObjects: 2.014800 ms  DeleteObjects: 0.075600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001250 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E8F68C76C0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F32E2400 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3556720 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F3686020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E918D3AA40 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F82092D0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F67631E0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F368EA30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F5469FF0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F59B3040 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F33D4B60 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F61B2010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E918CC2E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F384D010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E918CC2E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F32C1030 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E918CC2E30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F77E59A0 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F5089010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F368EA30 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F37D3020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F1DCC940 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F37D3020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E918CF6030 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F505F010 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F58F0A40 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8F37D3020 doesn't match image C:\Unity\Unity3D\Yenirep\TEST\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1728 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.1 MB.
+System memory in use after: 81.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2219.
+Total: 2.568600 ms (FindLiveObjects: 0.284700 ms CreateObjectMapping: 0.043400 ms MarkObjects: 2.154900 ms  DeleteObjects: 0.083800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

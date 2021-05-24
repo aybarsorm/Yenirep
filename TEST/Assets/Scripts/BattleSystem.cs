@@ -87,9 +87,8 @@ public class BattleSystem : MonoBehaviour
     {
         if(state == BattleState.PLAYERTURN && canPlayerTakeAction)
         {
-            StartCoroutine(PlayerAttack());
             canPlayerTakeAction = false;
-
+            StartCoroutine(PlayerAttack());
         }
     }
 
