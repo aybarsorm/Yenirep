@@ -8,8 +8,8 @@ public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 public class BattleSystem : MonoBehaviour
 {
     // platforms
-    public Transform[] friendlyPlatforms;
-    public Transform[] hostilePlatforms;
+    public Transform[] friendlySpawnPoints;
+    public Transform[] hostileSpawnPoints;
     //unit prefabs
     public GameObject[] friendlyPrefabs;
     public GameObject[] hostilePrefabs;
@@ -52,11 +52,11 @@ public class BattleSystem : MonoBehaviour
     {
         for (int i = 0; i < friendlyPrefabs.Length; i++)
         {
-            GameObject friendly = Instantiate(friendlyPrefabs[i], friendlyPlatforms[i]);
-            friendly.transform.parent = friendlyPlatforms[i].transform;
+            GameObject friendly = Instantiate(friendlyPrefabs[i], friendlySpawnPoints[i]);
+            friendly.transform.parent = friendlySpawnPoints[i].transform;
             friendly.GetComponent<Unit>().SetHud(friendlyHuds[i]);
-            Instantiate(hostilePrefabs[i], hostilePlatforms[i]).transform.parent =
-                hostilePlatforms[i].transform;
+            Instantiate(hostilePrefabs[i], hostileSpawnPoints[i]).transform.parent =
+                hostileSpawnPoints[i].transform;
 
         }
         turnOrder = FindObjectsOfType<Unit>();
@@ -95,9 +95,8 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator PlayerAttack()
     {
-        randomNumber = Random.Range(1, 101);
         playersUnit = turnOrder[turnOrderIndex];
-        if(randomNumber > SelectedEnemy.GetCurrentDodge() || randomNumber >= 95)
+        if(!DidDodge(SelectedEnemy))
         {
             bool isAlive = SelectedEnemy.TakeDamage(playersUnit.GetDamage());
             dialogueText.text = SelectedEnemy.GetUnitName() + " Took " + playersUnit.GetDamage() + " points of damage" + "new enemy hp = " + SelectedEnemy.GetCurrentHP();
@@ -133,7 +132,6 @@ public class BattleSystem : MonoBehaviour
     }
     IEnumerator EnemyTurn()
     {
-        randomNumber = Random.Range(1, 101);
         Unit hostileUnit = turnOrder[turnOrderIndex];
         int hostileDmg = hostileUnit.GetDamage();
         dialogueText.text = hostileUnit.GetUnitName() + " Attacks!";
@@ -141,9 +139,8 @@ public class BattleSystem : MonoBehaviour
         SelectAttackTarget();
         dialogueText.text = hostileUnit.GetUnitName() + " Attacks to " + attackTarget.GetUnitName() + "!";
 
-        if(randomNumber > attackTarget.GetCurrentDodge() || randomNumber >= 95)
+        if(!DidDodge(attackTarget))
         {
-            Debug.Log("random number = " + randomNumber + "dodge = " + attackTarget.GetCurrentDodge());
             bool isAlive = attackTarget.TakeDamage(hostileDmg);
             attackTarget.GetHud().SetHP(attackTarget);
             dialogueText.text = hostileUnit.GetUnitName() + "Deals " + hostileDmg + "points of damage to " + attackTarget.GetUnitName() + "!";
@@ -188,6 +185,15 @@ public class BattleSystem : MonoBehaviour
     {
         dialogueText.text = "BattleLost!";
         yield return new WaitForSeconds(2f);
+    }
+
+    public bool DidDodge(Unit unit)
+    {
+        randomNumber = Random.Range(1, 101);
+        if (randomNumber > unit.GetCurrentDodge() || randomNumber >= 95)
+            return false;
+        else 
+            return true;
     }
 
     private void SelectAttackTarget()
@@ -279,7 +285,7 @@ public class BattleSystem : MonoBehaviour
     {
         currentSelectedEnemyIndex--;
         if (currentSelectedEnemyIndex < 0)
-            currentSelectedEnemyIndex = (hostileUnits.Length);
+            currentSelectedEnemyIndex = (hostileUnits.Length - 1);
         if (!hostileUnits[currentSelectedEnemyIndex].gameObject.activeSelf)
             PrewEnemy();
         return hostileUnits[currentSelectedEnemyIndex];

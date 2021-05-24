@@ -19,6 +19,7 @@ public class Unit : MonoBehaviour
 
     BattleSystem battleSystem;
     BattleHud battleHud;
+    [SerializeField] HealthBar healthBar;
 
     private bool isAlive = true;
     //bool canAct = true;
@@ -28,6 +29,8 @@ public class Unit : MonoBehaviour
         currentInitiative = baseInitiative;
         currentHP = maxHP;
         currentDodge = baseDodge;
+        healthBar.SetMaxHealth(maxHP);
+        healthBar.SetHealth(currentHP);
         battleSystem = FindObjectOfType<BattleSystem>();
 
     }
@@ -39,11 +42,15 @@ public class Unit : MonoBehaviour
         if (currentHP <= 0)
         {
             currentHP = 0;
+            healthBar.SetHealth(currentHP);
             isAlive = false;
             return isAlive;
         }
         else
+        {
+            healthBar.SetHealth(currentHP);
             return isAlive;
+        }
     }
 
     public void Heal(int heal)
